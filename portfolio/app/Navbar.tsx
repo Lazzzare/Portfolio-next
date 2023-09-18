@@ -5,9 +5,9 @@ interface props {
 
 const Navbar = ({ name, mode }: props) => {
   return (
-    <div>
+    <div className="w-full flex flex-row justify-between">
       <h1>{name}</h1>
-      <h1>mode</h1>
+      <h1>{mode}</h1>
     </div>
   );
 };
