@@ -2,8 +2,8 @@ import Navbar from "./Navbar";
 
 export default function Home() {
   return (
-    <div>
-      <Navbar name="Lazare" />
+    <div className="container max-w-[1240px] mx-auto p-9">
+      <Navbar name="Lazare" mode="dark" />
     </div>
   );
 }
