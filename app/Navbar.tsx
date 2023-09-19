@@ -12,7 +12,7 @@ interface props {
 }
 
 const Navbar = ({ darkMode, setDarkMode }: props) => {
-  const menuArray = ["home", "skills", "project", "contact"];
+  const menuArray = ["home", "skills", "project"];
 
   return (
     <div
