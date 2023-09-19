@@ -21,7 +21,6 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   const [darkMode, setDarkMode] = useState(false);
-  console.log(darkMode);
   return (
     <html lang="en">
       <body
