@@ -26,7 +26,7 @@ export default function RootLayout({
       <body
         className={`${poppins.className} ${
           darkMode ? "dark" : ""
-        } w-full h-screen bg-[#fafbf5] container max-w-[1200px] mx-auto p-9 dark:dark`}
+        } w-full h-screen bg-[#fafbf5] container max-w-[1200px] mx-auto p-9`}
       >
         <Navbar darkMode={darkMode} setDarkMode={setDarkMode} />
         {children}
