@@ -16,7 +16,9 @@ const Navbar = ({ darkMode, setDarkMode }: props) => {
 
   return (
     <div
-      className={`w-full flex flex-row justify-between text-black dark:text-white`}
+      className={`w-full flex flex-row justify-between text-black ${
+        darkMode ? "dark" : ""
+      } dark:text-white`}
     >
       {/* LeftSide */}
       <div className="flex items-center gap-x-2">
