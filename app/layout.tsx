@@ -1,9 +1,6 @@
-"use client";
 import "./globals.css";
 import type { Metadata } from "next";
 import { Poppins } from "next/font/google";
-import { useState } from "react";
-import Navbar from "./Navbar";
 
 export const metadata: Metadata = {
   title: "Portfolio",
@@ -20,16 +17,12 @@ export default function RootLayout({
 }: {
   children: React.ReactNode;
 }) {
-  const [darkMode, setDarkMode] = useState(false);
   return (
     <html lang="en">
       <body
-        className={`${poppins.className} ${
-          darkMode ? "dark" : ""
-        } w-full h-screen bg-[#fafbf5] max-w-[1200px] mx-auto px-9 pt-11`}
+        className={`${poppins.className} w-full h-screen bg-[#fafbf5] max-w-[1200px] mx-auto px-9 pt-11`}
       >
-        <Navbar darkMode={darkMode} setDarkMode={setDarkMode} />
-        {/* {children} */}
+        {children}
       </body>
     </html>
   );

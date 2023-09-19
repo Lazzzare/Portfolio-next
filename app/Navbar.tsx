@@ -6,20 +6,11 @@ import {
   BsSun,
 } from "react-icons/bs";
 
-interface props {
-  darkMode: boolean;
-  setDarkMode: (e: boolean) => void;
-}
-
-const Navbar = ({ darkMode, setDarkMode }: props) => {
+const Navbar = () => {
   const menuArray = ["home", "skills", "project", "contact"];
 
   return (
-    <div
-      className={`w-full flex flex-row justify-between text-black ${
-        darkMode ? "dark" : ""
-      } dark:text-white`}
-    >
+    <div className="w-full flex flex-row justify-between text-black">
       {/* LeftSide */}
       <div className="flex items-center gap-x-2">
         <Image
@@ -42,17 +33,7 @@ const Navbar = ({ darkMode, setDarkMode }: props) => {
             </h3>
           </li>
         ))}
-        {darkMode ? (
-          <BsSun
-            onClick={() => setDarkMode(!darkMode)}
-            className="w-[20px] h-[20px] ml-3 cursor-pointer"
-          />
-        ) : (
-          <BsFillMoonStarsFill
-            onClick={() => setDarkMode(!darkMode)}
-            className="w-[20px] h-[20px] ml-3 cursor-pointer"
-          />
-        )}
+        <BsFillMoonStarsFill className="w-[20px] h-[20px] ml-3 cursor-pointer" />
       </div>
     </div>
   );
