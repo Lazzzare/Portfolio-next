@@ -1,3 +1,4 @@
+"use client";
 import "./globals.css";
 import type { Metadata } from "next";
 import { Poppins } from "next/font/google";
@@ -28,7 +29,7 @@ export default function RootLayout({
         } w-full h-screen bg-[#fafbf5] max-w-[1200px] mx-auto px-9 pt-11`}
       >
         <Navbar darkMode={darkMode} setDarkMode={setDarkMode} />
-        {children}
+        {/* {children} */}
       </body>
     </html>
   );
