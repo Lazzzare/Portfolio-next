@@ -1,6 +1,9 @@
+"use client";
 import "./globals.css";
 import type { Metadata } from "next";
 import { Poppins } from "next/font/google";
+import { ThemeProvider } from "next-themes";
+import Navbar from "./components/Navbar";
 
 export const metadata: Metadata = {
   title: "Portfolio",
@@ -14,20 +17,20 @@ const poppins = Poppins({
 
 interface RootLayoutProps {
   children: React.ReactNode;
-  darkMode: boolean;
 }
 
-const RootLayout = ({ children, darkMode }: RootLayoutProps) => {
+const RootLayout = ({ children }: RootLayoutProps) => {
   return (
     <html lang="en">
       <body
-        className={`${
-          poppins.className
-        } max-w-[1200px] mx-auto px-9 pt-11 w-full h-screen ${
-          darkMode ? "bg-black" : "bg-[#fafbf5]"
-        }`}
+        className={`${poppins.className} max-w-[1200px] mx-auto px-9 pt-11 w-full h-screen`}
       >
-        {children}
+        <>
+          <ThemeProvider attribute="class">
+            <Navbar />
+            {children}
+          </ThemeProvider>
+        </>
       </body>
     </html>
   );
