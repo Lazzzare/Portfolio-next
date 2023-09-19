@@ -1,13 +1,10 @@
-interface props {
-  name: string;
-  mode: string;
-}
-
-const Navbar = ({ name, mode }: props) => {
+const Navbar = () => {
   return (
     <div className="w-full flex flex-row justify-between">
-      <h1>{name}</h1>
-      <h1>{mode}</h1>
+      {/* LeftSide */}
+      <div></div>
+      {/* RightSide */}
+      <div></div>
     </div>
   );
 };
