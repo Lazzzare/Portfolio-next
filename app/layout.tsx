@@ -12,18 +12,25 @@ const poppins = Poppins({
   weight: ["400", "500", "700"],
 });
 
-export default function RootLayout({
-  children,
-}: {
+interface RootLayoutProps {
   children: React.ReactNode;
-}) {
+  darkMode: boolean;
+}
+
+const RootLayout = ({ children, darkMode }: RootLayoutProps) => {
   return (
     <html lang="en">
       <body
-        className={`${poppins.className} max-w-[1200px] mx-auto px-9 pt-11 w-full h-screen bg-[#fafbf5]`}
+        className={`${
+          poppins.className
+        } max-w-[1200px] mx-auto px-9 pt-11 w-full h-screen ${
+          darkMode ? "bg-black" : "bg-[#fafbf5]"
+        }`}
       >
         {children}
       </body>
     </html>
   );
-}
+};
+
+export default RootLayout;
