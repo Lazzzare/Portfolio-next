@@ -20,7 +20,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${poppins.className} w-full h-screen bg-[#fafbf5] max-w-[1200px] mx-auto px-9 pt-11`}
+        className={`${poppins.className} max-w-[1200px] mx-auto px-9 pt-11 w-full h-screen bg-[#fafbf5]`}
       >
         {children}
       </body>
