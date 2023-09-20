@@ -2,8 +2,8 @@
 import "./globals.css";
 import type { Metadata } from "next";
 import { Poppins } from "next/font/google";
-import { ThemeProvider } from "next-themes";
 import Navbar from "./components/Navbar";
+import { ThemeProvider } from "next-themes";
 
 export const metadata: Metadata = {
   title: "Portfolio",
@@ -25,12 +25,10 @@ const RootLayout = ({ children }: RootLayoutProps) => {
       <body
         className={`${poppins.className} max-w-[1200px] mx-auto px-9 pt-11 w-full h-screen`}
       >
-        <>
-          <ThemeProvider attribute="class">
-            <Navbar />
-            {children}
-          </ThemeProvider>
-        </>
+        <ThemeProvider enableSystem={true} attribute="class">
+          <Navbar />
+          {children}
+        </ThemeProvider>
       </body>
     </html>
   );

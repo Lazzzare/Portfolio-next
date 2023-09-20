@@ -1,3 +1,4 @@
+"use client";
 import Image from "next/image";
 import ProfileImage from "@/public/profile.jpg";
 import { useTheme } from "next-themes";
@@ -6,10 +7,16 @@ import {
   BsFillMoonStarsFill,
   BsSun,
 } from "react-icons/bs";
+import { useState, useEffect } from "react";
 
 const Navbar = () => {
-  const { theme, setTheme } = useTheme();
-  // const currentTime = theme === "system" ? systemTheme : theme;
+  const [mounted, setMounted] = useState(false);
+  const { systemTheme, theme, setTheme } = useTheme();
+  useEffect(() => {
+    setMounted(true);
+  }, []);
+  if (!mounted) return null;
+  const currentTime = theme === "system" ? systemTheme : theme;
   const menuArray = ["home", "skills", "project", "contact"];
 
   return (
@@ -36,7 +43,7 @@ const Navbar = () => {
             </h3>
           </li>
         ))}
-        {theme === "dark" ? (
+        {currentTime === "dark" ? (
           <BsSun
             size={20}
             onClick={() => setTheme("light")}
