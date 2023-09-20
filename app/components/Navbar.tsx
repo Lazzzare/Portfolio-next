@@ -1,22 +1,14 @@
 "use client";
 import Image from "next/image";
 import ProfileImage from "@/public/profile.jpg";
-import { useTheme } from "next-themes";
+import "../../app/globals.css";
 import {
   BsFillPatchCheckFill,
   BsFillMoonStarsFill,
   BsSun,
 } from "react-icons/bs";
-import { useState, useEffect } from "react";
 
 const Navbar = () => {
-  const [mounted, setMounted] = useState(false);
-  const { systemTheme, theme, setTheme } = useTheme();
-  useEffect(() => {
-    setMounted(true);
-  }, []);
-  if (!mounted) return null;
-  const currentTime = theme === "system" ? systemTheme : theme;
   const menuArray = ["home", "skills", "project", "contact"];
 
   return (
@@ -28,14 +20,12 @@ const Navbar = () => {
           alt="ProfileImage"
           className="w-[48px] h-[48px] rounded-full object-cover mr-2"
         />
-        <h2 className="font-medium text-lg cursor-pointer dark:text-white">
-          Lazzzare
-        </h2>
+        <h2 className="font-medium text-lg cursor-pointer">Lazzzare</h2>
         <BsFillPatchCheckFill className="text-blue-500 w-6 h-6" />
       </div>
 
       {/* RightSide */}
-      <div className="flex items-center gap-x-5 dark:text-white">
+      <div className="flex items-center gap-x-5">
         {menuArray.map((item, index) => (
           <li key={index} className="list-none">
             <h3 key={index} className="cursor-pointer">
@@ -43,19 +33,8 @@ const Navbar = () => {
             </h3>
           </li>
         ))}
-        {currentTime === "dark" ? (
-          <BsSun
-            size={20}
-            onClick={() => setTheme("light")}
-            className=" ml-3 cursor-pointer"
-          />
-        ) : (
-          <BsFillMoonStarsFill
-            size={20}
-            onClick={() => setTheme("dark")}
-            className="ml-3 cursor-pointer"
-          />
-        )}
+
+        <BsFillMoonStarsFill size={20} className="ml-3 cursor-pointer" />
       </div>
     </div>
   );
