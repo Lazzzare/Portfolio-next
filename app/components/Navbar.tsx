@@ -7,12 +7,14 @@ import {
   BsFillMoonStarsFill,
   BsSun,
 } from "react-icons/bs";
+import { useTheme } from "next-themes";
 
 const Navbar = () => {
   const menuArray = ["home", "skills", "project", "contact"];
+  const { theme, setTheme } = useTheme();
 
   return (
-    <div className="w-full flex flex-row justify-between text-black">
+    <div className="w-full flex flex-row justify-between text-black dark:text-white">
       {/* LeftSide */}
       <div className="flex items-center gap-x-2">
         <Image
@@ -33,8 +35,19 @@ const Navbar = () => {
             </h3>
           </li>
         ))}
-
-        <BsFillMoonStarsFill size={20} className="ml-3 cursor-pointer" />
+        {theme === "light" ? (
+          <BsFillMoonStarsFill
+            onClick={() => setTheme("dark")}
+            size={20}
+            className="ml-3 cursor-pointer"
+          />
+        ) : (
+          <BsSun
+            onClick={() => setTheme("light")}
+            size={20}
+            className="ml-3 cursor-pointer"
+          />
+        )}
       </div>
     </div>
   );
