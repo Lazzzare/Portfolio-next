@@ -21,7 +21,7 @@ const RootLayout = ({ children }: RootLayoutProps) => {
   return (
     <html lang="en" suppressHydrationWarning>
       <body
-        className={`${poppins.className} max-w-[1200px] mx-auto px-9 pt-11 w-full h-screen`}
+        className={`${poppins.className} max-w-[1400px] mx-auto px-9 pt-11 w-full h-screen`}
       >
         <Providers>
           <Navbar />
