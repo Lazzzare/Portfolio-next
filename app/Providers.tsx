@@ -6,7 +6,11 @@ interface RootLayoutProps {
 }
 
 const Providers = ({ children }: RootLayoutProps) => {
-  return <ThemeProvider attribute="class">{children}</ThemeProvider>;
+  return (
+    <ThemeProvider attribute="class" enableSystem>
+      {children}
+    </ThemeProvider>
+  );
 };
 
 export default Providers;
