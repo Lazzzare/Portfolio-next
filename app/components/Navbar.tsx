@@ -7,6 +7,7 @@ import {
   BsFillMoonStarsFill,
   BsSun,
 } from "react-icons/bs";
+import { HiOutlineMenuAlt1 } from "react-icons/hi";
 import { useTheme } from "next-themes";
 
 const Navbar = () => {
@@ -14,27 +15,35 @@ const Navbar = () => {
   const { theme, setTheme } = useTheme();
 
   return (
-    <div className="w-full flex flex-row justify-between text-black dark:text-white">
+    <div className="w-full flex flex-row justify-between items-center text-black dark:text-white">
       {/* LeftSide */}
       <div className="flex items-center gap-x-2">
         <Image
           src={ProfileImage}
           alt="ProfileImage"
-          className="w-[48px] h-[48px] rounded-full object-cover mr-2"
+          className="w-[35px] h-[35px] md:w-[48px] md:h-[48px] rounded-full object-cover mr-2"
         />
-        <h2 className="font-medium text-lg cursor-pointer">Lazzzare</h2>
-        <BsFillPatchCheckFill className="text-blue-500 w-6 h-6" />
+        <h2 className="font-medium text-base md:text-lg cursor-pointer">
+          Lazzzare
+        </h2>
+        <BsFillPatchCheckFill className="text-blue-500 w-4 h-4 md:w-6 md:h-6" />
       </div>
 
-      {/* RightSide */}
-      <div className="flex items-center gap-x-5">
-        {menuArray.map((item, index) => (
-          <li key={index} className="list-none">
-            <h3 key={index} className="cursor-pointer">
-              {item}
-            </h3>
-          </li>
-        ))}
+      {/* BurgerMenu */}
+      <div className="flex flex-row-reverse md:flex-row items-center gap-x-4">
+        <div className="flex md:hidden cursor-pointer">
+          <HiOutlineMenuAlt1 size={25} />
+        </div>
+        {/* RightSide */}
+        <div className="hidden md:flex items-center gap-x-5">
+          {menuArray.map((item, index) => (
+            <li key={index} className="list-none">
+              <h3 key={index} className="cursor-pointer">
+                {item}
+              </h3>
+            </li>
+          ))}
+        </div>
         {theme === "light" ? (
           <BsFillMoonStarsFill
             onClick={() => setTheme("dark")}
