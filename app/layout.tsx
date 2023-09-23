@@ -3,6 +3,7 @@ import type { Metadata } from "next";
 import { Poppins } from "next/font/google";
 import Navbar from "./components/Navbar";
 import Providers from "./Providers";
+import Home from "./page";
 
 export const metadata: Metadata = {
   title: "Portfolio",
@@ -26,6 +27,7 @@ const RootLayout = ({ children }: RootLayoutProps) => {
         <Providers>
           <Navbar />
           {children}
+          <Home />
         </Providers>
       </body>
     </html>
