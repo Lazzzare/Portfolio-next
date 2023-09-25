@@ -3,7 +3,7 @@ import type { Metadata } from "next";
 import { Poppins } from "next/font/google";
 import Navbar from "./components/Navbar";
 import Providers from "./Providers";
-import Home from "./page";
+import Home from "./components/Home";
 
 export const metadata: Metadata = {
   title: "Portfolio",
