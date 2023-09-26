@@ -24,7 +24,7 @@ const Navbar = () => {
       <div className="w-full flex flex-row justify-between items-center text-black dark:text-white">
         {/* LeftSide */}
         <motion.div
-          initial={{ opacity: 0, x: -20 }}
+          initial={{ opacity: 0, x: -200 }}
           animate={{ opacity: 1, x: 0 }}
           transition={{ duration: 0.5 }}
         >
@@ -32,7 +32,7 @@ const Navbar = () => {
             <Image
               src={ProfileImage}
               alt="ProfileImage"
-              className="w-[35px] h-[35px] md:w-[48px] md:h-[48px] rounded-full object-cover mr-2"
+              className="w-[35px] h-[35px] md:w-[48px] md:h-[48px] rounded-full object-cover mr-1 md:mr-2"
             />
             <h2 className="font-medium text-base md:text-lg cursor-pointer">
               Lazzzare
@@ -57,7 +57,7 @@ const Navbar = () => {
           )}
           {/* RightSide */}
           <motion.div
-            initial={{ opacity: 0, x: 20 }}
+            initial={{ opacity: 0, x: 200 }}
             animate={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.5 }}
             style={{ display: "flex", alignItems: "center" }}
@@ -75,13 +75,13 @@ const Navbar = () => {
               <BsFillMoonStarsFill
                 onClick={() => setTheme("dark")}
                 size={20}
-                className="ml-3 cursor-pointer"
+                className="ml-4 cursor-pointer"
               />
             ) : (
               <BsSun
                 onClick={() => setTheme("light")}
                 size={20}
-                className="ml-3 cursor-pointer"
+                className="ml-4 cursor-pointer"
               />
             )}
           </motion.div>
