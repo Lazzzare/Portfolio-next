@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import TodoProjectImage from "../../public/todo.png";
+import TodoProjectImage from "@/public/todo.png";
 import { motion } from "framer-motion";
 import {
   BiLogoReact,
