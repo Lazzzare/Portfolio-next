@@ -9,7 +9,7 @@
 /* Works on Firefox */
 * {
   scrollbar-width: thin;
-  scrollbar-color: @apply text-red-500 text-blue-700;
+  scrollbar-color: #fff #133313;
 }
 /* Works on Chrome, Edge, and Safari */
 *::-webkit-scrollbar {

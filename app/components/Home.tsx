@@ -3,6 +3,7 @@ import { TypeAnimation } from "react-type-animation";
 import { motion } from "framer-motion";
 import LatestProjects from "./LatestProjects";
 import { useEffect, useState } from "react";
+import FacebookMessage from "./FacebookMessage";
 
 const Home = () => {
   return (
@@ -61,6 +62,7 @@ const Home = () => {
       </div>
 
       <LatestProjects />
+      <FacebookMessage />
     </div>
   );
 };
