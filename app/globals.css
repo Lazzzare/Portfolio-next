@@ -30,3 +30,11 @@
 *::-webkit-scrollbar-corner {
   border-radius: 20px;
 }
+
+.fb_customer_chat_bounce_in_v2_no_badge .fb_dialog_content iframe {
+  background-color: transparent;
+}
+
+.fb_customer_chat_bounce_in_v2_no_badge .fb_dialog_content iframe {
+  border: none;
+}
