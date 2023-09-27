@@ -38,3 +38,9 @@
 .fb_customer_chat_bounce_in_v2_no_badge .fb_dialog_content iframe {
   border: none;
 }
+
+@media (prefers-color-scheme: dark) {
+  .fb_customer_chat_bounce_in_v2_no_badge .fb_dialog_content iframe {
+    display: none !important;
+  }
+}
