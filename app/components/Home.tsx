@@ -2,6 +2,8 @@
 import { TypeAnimation } from "react-type-animation";
 import { motion } from "framer-motion";
 import LatestProjects from "./LatestProjects";
+import { useEffect, useState } from "react";
+
 const Home = () => {
   return (
     <div>
