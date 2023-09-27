@@ -1,3 +1,32 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.light {
+  background: rgb(250, 243, 243);
+}
+
+/* Works on Firefox */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: @apply text-red-500 text-blue-700;
+}
+/* Works on Chrome, Edge, and Safari */
+*::-webkit-scrollbar {
+  width: 12px;
+  border-radius: 20px;
+}
+*::-webkit-scrollbar-track {
+  background: orange;
+  border-radius: 20px;
+}
+*::-webkit-scrollbar-thumb {
+  background-color: blue;
+  border-radius: 20px;
+  border: 3px solid orange;
+  border-radius: 20px;
+}
+
+*::-webkit-scrollbar-corner {
+  border-radius: 20px;
+}
