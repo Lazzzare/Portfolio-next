@@ -1,6 +1,5 @@
 import React from "react";
 import Image from "next/image";
-// import TodoProjectImage from "@/public/todo.png";
 import TodoProjectImage from "/app/images/todo.png";
 import { motion } from "framer-motion";
 import {
