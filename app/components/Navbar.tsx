@@ -12,7 +12,6 @@ import { HiOutlineMenuAlt1 } from "react-icons/hi";
 import { HiXMark } from "react-icons/hi2";
 import { useTheme } from "next-themes";
 import { useState } from "react";
-import Home from "../page";
 
 const Navbar = () => {
   const [mobileMenu, setMobileMenu] = useState<boolean>(false);
