@@ -17,7 +17,6 @@ import {
   BiLogoTailwindCss,
 } from "react-icons/bi";
 import { useTheme } from "next-themes";
-
 const LatestProjects = () => {
   const { theme, setTheme } = useTheme();
   return (
@@ -33,13 +32,11 @@ const LatestProjects = () => {
           {/* Projects */}
           <div className="flex flex-col gap-8 md:flex-row justify-between">
             {/* Project 1 */}
-            <div className="relative h-full w-full hover:scale-105 duration-300 max-w-[300px] cursor-pointer">
+            <div className="relative h-full w-full hover:scale-105 duration-300 max-w-[300px] cursor-pointer hover:rotate-45">
               <Image
                 className="rounded-xl h-[300px] w-[300px] object-cover"
                 src={TodoProjectImage}
-                alt="image"
-                // width={264}
-                // height={800}
+                alt="TodoProjectImage"
               />
               <div className="absolute bottom-24 left-[70px]">
                 <h1
@@ -175,7 +172,7 @@ const LatestProjects = () => {
           </div>
         </div>
         {/* Button */}
-        <div className="w-full flex gap-x-2 justify-end justify-items-end flex-row text-right mt-10 mb-20 font-bold text-3xl cursor-pointer items-center text-red-400 hover:text-red-300">
+        <div className="w-full flex gap-x-2 justify-end justify-items-end flex-row text-right mt-10 mb-20 font-bold text-3xl cursor-pointer items-center text-red-500 hover:dark:text-red-300 hover:text-red-400">
           <h2>See all projects </h2>
           <BsArrowRight className="" />
         </div>

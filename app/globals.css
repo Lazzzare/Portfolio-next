@@ -3,15 +3,43 @@
 @tailwind utilities;
 
 .light {
-  background: rgb(250, 243, 243);
+  background: rgb(221, 213, 213);
+  transition: background-color 3s ease;
 }
 
-/* Works on Firefox */
+.body {
+  transition: background-color 6s ease;
+}
+
+/* * {
+  scrollbar-width: 6px;
+  scrollbar-color: #0f0d0d rgb(234, 96, 96);
+}
+
+*::-webkit-scrollbar {
+  width: 12px;
+}
+
+*::-webkit-scrollbar-track {
+  background: #f0f0f0;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: rgb(234, 96, 96);
+  border-radius: 10px;
+  border: 3px solid rgb(234, 96, 96);
+}
+
+*::-webkit-scrollbar-corner {
+  background: #f0f0f0;
+} */
+
 * {
   scrollbar-width: thin;
-  scrollbar-color: #fff #133313;
+  scrollbar-color: #0f0d0d rgb(234, 96, 96);
+  border-radius: 20px;
 }
-/* Works on Chrome, Edge, and Safari */
+
 *::-webkit-scrollbar {
   width: 12px;
   border-radius: 20px;

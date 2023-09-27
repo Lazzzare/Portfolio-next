@@ -1,44 +1,20 @@
-"use client";
-import { useEffect } from "react";
-import { FacebookProvider, CustomChat } from "react-facebook";
+import React from "react";
 
-const FacebookMessage = () => {
-  const applyCustomStylesToMessenger = () => {
-    const messengerIframe = document.querySelector(
-      ".fb_customer_chat_bounce_in_v2_no_badge .fb_dialog_content iframe"
-    ) as HTMLElement;
+const FullScreenExample = () => {
+  const handleFullScreenClick = () => {
+    const element = document.documentElement;
 
-    if (messengerIframe) {
-      messengerIframe.style.backgroundColor = "transparent";
-      messengerIframe.style.border = "none";
+    // Check if the browser supports the Fullscreen API
+    if (document.fullscreenEnabled) {
+      element.requestFullscreen().catch((err) => {
+        console.error("Error attempting to enable full screen:", err);
+      });
+    } else {
+      console.error("Fullscreen is not supported by this browser.");
     }
   };
-  useEffect(() => {
-    // Load the Messenger plugin after other content has loaded
-    window.fbAsyncInit = function () {
-      window.FB.init({
-        appId: "1711829182636666",
-        autoLogAppEvents: true,
-        xfbml: true,
-        version: "v12.0",
-      });
 
-      // Apply custom styles initially
-      applyCustomStylesToMessenger();
-
-      // Apply custom styles every 5 seconds (adjust the interval as needed)
-      setInterval(() => {
-        applyCustomStylesToMessenger();
-      }, 5000);
-    };
-  }, []);
-  return (
-    <div>
-      <FacebookProvider appId="1711829182636666" chatSupport>
-        <CustomChat pageId="132736456589410" minimized={true} />
-      </FacebookProvider>
-    </div>
-  );
+  return <div></div>;
 };
 
-export default FacebookMessage;
+export default FullScreenExample;

@@ -6,6 +6,16 @@ import { useEffect, useState } from "react";
 import FacebookMessage from "./FacebookMessage";
 
 const Home = () => {
+  useEffect(() => {
+    const audio = new Audio("../../public/music.mp3");
+    audio.play();
+
+    return () => {
+      audio.pause();
+      audio.currentTime = 0;
+    };
+  }, []);
+
   return (
     <div>
       <div className="flex flex-col pt-20 md:pt-40 gap-y-4">
@@ -14,7 +24,7 @@ const Home = () => {
           animate={{ opacity: 3, x: 0 }}
           transition={{ duration: 1 }}
         >
-          <h2 className="font-bold text-xl md:text-3xl max-w-[450px] text-red-400 uppercase cursor-pointer hover:text-red-300">
+          <h2 className="font-bold text-xl md:text-3xl max-w-[450px] text-red-500 dark:text-red-400 hover:dark:text-red-300 hover:text-red-400 uppercase cursor-pointer">
             hello, my name is lazare
           </h2>
         </motion.div>
@@ -36,7 +46,7 @@ const Home = () => {
           animate={{ opacity: 3, x: 0 }}
           transition={{ duration: 1 }}
         >
-          <h3 className="text-red-400 text-xl cursor-pointer hover:text-red-300 max-w-[240px]">
+          <h3 className="text-xl cursor-pointer text-red-500 hover:dark:text-red-300 hover:text-red-400 max-w-[240px]">
             I love{" "}
             <TypeAnimation
               sequence={[
