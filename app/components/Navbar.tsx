@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 import Image from "next/image";
 import ProfileImage from "@/public/profile.jpg";
 import "../../app/globals.css";
-import { BsFillPatchCheckFill, BsMoonStarsFill, BsSun } from "react-icons/bs";
+import { BsFillPatchCheckFill, BsFillMoonFill, BsSun } from "react-icons/bs";
 import { HiOutlineMenuAlt1 } from "react-icons/hi";
 import { HiXMark } from "react-icons/hi2";
 import { useTheme } from "next-themes";
@@ -67,7 +67,7 @@ const Navbar = () => {
               ))}
             </div>
             {theme === "light" ? (
-              <BsMoonStarsFill
+              <BsFillMoonFill
                 onClick={() => setTheme("dark")}
                 size={20}
                 className="ml-4 cursor-pointer"
