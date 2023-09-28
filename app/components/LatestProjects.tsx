@@ -304,7 +304,10 @@ const LatestProjects = () => {
                   target="_blank"
                   href="https://tip-calculator-reacttsx.netlify.app/"
                 >
-                  <BiLogoNetlify size={40} className="hover:text-gray-600 dark:hover:text-red-400" />
+                  <BiLogoNetlify
+                    size={40}
+                    className="hover:text-gray-600 dark:hover:text-red-400"
+                  />
                   <h2>Netlify</h2>
                 </Link>
 
@@ -313,7 +316,10 @@ const LatestProjects = () => {
                   target="_blank"
                   href="https://github.com/Lazzzare/TipCalculator-React"
                 >
-                  <AiFillGithub size={40} className="hover:text-gray-600 dark:hover:text-red-400" />
+                  <AiFillGithub
+                    size={40}
+                    className="hover:text-gray-600 dark:hover:text-red-400"
+                  />
                   <h2>Github</h2>
                 </Link>
               </div>
