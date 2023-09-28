@@ -45,13 +45,13 @@
   border-radius: 20px;
 }
 *::-webkit-scrollbar-track {
-  background: orange;
+  background: rgb(234, 96, 96);
   border-radius: 20px;
 }
 *::-webkit-scrollbar-thumb {
-  background-color: blue;
+  background-color: #0f0d0d;
   border-radius: 20px;
-  border: 3px solid orange;
+  border: 3px solid rgb(234, 96, 96);
   border-radius: 20px;
 }
 
