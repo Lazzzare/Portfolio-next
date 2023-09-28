@@ -11,7 +11,7 @@ const Home = () => {
       <div className="flex flex-col pt-20 md:pt-40 gap-y-4">
         <motion.div
           initial={{ opacity: 0, x: -500 }}
-          animate={{ opacity: 3, x: 0 }}
+          animate={{ opacity: 1, x: 0 }}
           transition={{ duration: 1 }}
         >
           <h2 className="font-bold text-xl md:text-3xl max-w-[450px] text-red-500 dark:text-red-400 hover:dark:text-red-300 hover:text-red-400 uppercase cursor-pointer">
@@ -20,7 +20,7 @@ const Home = () => {
         </motion.div>
         <motion.div
           initial={{ opacity: 0, x: -500 }}
-          animate={{ opacity: 3, x: 0 }}
+          animate={{ opacity: 1, x: 0 }}
           transition={{ duration: 0.5 }}
         >
           <h1 className="font-bold text-[32px] md:text-7xl">
