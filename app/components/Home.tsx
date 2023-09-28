@@ -6,16 +6,6 @@ import { useEffect, useState } from "react";
 import FacebookMessage from "./FacebookMessage";
 
 const Home = () => {
-  useEffect(() => {
-    const audio = new Audio("../../public/music.mp3");
-    audio.play();
-
-    return () => {
-      audio.pause();
-      audio.currentTime = 0;
-    };
-  }, []);
-
   return (
     <div>
       <div className="flex flex-col pt-20 md:pt-40 gap-y-4">
