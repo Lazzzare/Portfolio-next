@@ -17,6 +17,7 @@ import {
   BiLogoReact,
   BiLogoTypescript,
   BiLogoTailwindCss,
+  BiLogoNetlify,
 } from "react-icons/bi";
 import { useTheme } from "next-themes";
 import Link from "next/link";
@@ -48,6 +49,26 @@ const LatestProjects = () => {
                 This is a simple yet powerful Todo App built using React,
                 Tailwind CSS, Framer-motion and TypeScript.
               </p>
+              <div className="absolute bottom-[170px] left-[80px] gap-[40px] hover:backdrop-blur-none flex flex-row group-hover:-rotate-180 opacity-0 group-hover:opacity-100 group-hover:visible transition-opacity duration-300">
+                <div className="flex flex-col items-center">
+                  <Link
+                    target="_blank"
+                    href="https://todo-app-react-lazzzare.vercel.app/"
+                  >
+                    <IoLogoVercel size={40} />
+                    <h2>Vercel</h2>
+                  </Link>
+                </div>
+                <div className="flex flex-col items-center">
+                  <Link
+                    target="_blank"
+                    href="https://github.com/Lazzzare/TodoApp-React"
+                  >
+                    <AiFillGithub size={40} />
+                    <h2>Github</h2>
+                  </Link>
+                </div>
+              </div>
               <div className="absolute bottom-24 left-[70px]">
                 <h1
                   className={`text-bold text-3xl cursor-pointer text-white opacity-100 group-hover:opacity-0 transition-opacity duration-300`}
@@ -76,6 +97,26 @@ const LatestProjects = () => {
                 This is a simple yet powerful Todo App built using React,
                 Tailwind CSS, Framer-motion and TypeScript.
               </p>
+              <div className="absolute bottom-[170px] left-[80px] gap-[40px] hover:backdrop-blur-none flex flex-row group-hover:-rotate-180 opacity-0 group-hover:opacity-100 group-hover:visible transition-opacity duration-300">
+                <div className="flex flex-col items-center">
+                  <Link
+                    target="_blank"
+                    href="https://github-user-api-react.netlify.app/"
+                  >
+                    <BiLogoNetlify size={40} />
+                    <h2>Netlify</h2>
+                  </Link>
+                </div>
+                <div className="flex flex-col items-center">
+                  <Link
+                    target="_blank"
+                    href="https://github.com/Lazzzare/GithubUserAPI-React"
+                  >
+                    <AiFillGithub size={40} />
+                    <h2>Github</h2>
+                  </Link>
+                </div>
+              </div>
               <div className="absolute top-6 left-[70px]">
                 <h1 className="text-bold text-3xl cursor-pointer text-white opacity-100 group-hover:opacity-0 transition-opacity duration-300">
                   Tic Tac Toe
@@ -99,6 +140,26 @@ const LatestProjects = () => {
                 This project aims to provide a simple and customizable password
                 generation tool.
               </p>
+              <div className="absolute bottom-[170px] left-[80px] gap-[40px] hover:backdrop-blur-none flex flex-row group-hover:-rotate-180 opacity-0 group-hover:opacity-100 group-hover:visible transition-opacity duration-300">
+                <div className="flex flex-col items-center">
+                  <Link
+                    target="_blank"
+                    href="https://password-generator-app-react-pi.vercel.app/"
+                  >
+                    <IoLogoVercel size={40} />
+                    <h2>Vercel</h2>
+                  </Link>
+                </div>
+                <div className="flex flex-col items-center">
+                  <Link
+                    target="_blank"
+                    href="https://github.com/Lazzzare/PasswordGeneratorApp-React"
+                  >
+                    <AiFillGithub size={40} />
+                    <h2>Github</h2>
+                  </Link>
+                </div>
+              </div>
               <div className="absolute top-6 left-[30px]">
                 <h1 className="text-bold text-2xl w-full text-center items-center mx-auto cursor-pointer opacity-100 group-hover:opacity-0 transition-opacity duration-300 hover:text-red-300 text-white">
                   Password Generator
@@ -125,6 +186,26 @@ const LatestProjects = () => {
                 This Todo App is a simple and efficient task management
                 application built using Svelte, TypeScript, and Tailwind CSS.
               </p>
+              <div className="absolute bottom-[170px] left-[80px] gap-[40px] hover:backdrop-blur-none flex flex-row group-hover:-rotate-180 opacity-0 group-hover:opacity-100 group-hover:visible transition-opacity duration-300">
+                <div className="flex flex-col items-center">
+                  <Link
+                    target="_blank"
+                    href="https://todo-app-svelte-lazzzare.netlify.app/"
+                  >
+                    <BiLogoNetlify size={40} />
+                    <h2>Netlify</h2>
+                  </Link>
+                </div>
+                <div className="flex flex-col items-center">
+                  <Link
+                    target="_blank"
+                    href="https://github.com/Lazzzare/TodoApp-Svelte"
+                  >
+                    <AiFillGithub size={40} />
+                    <h2>Github</h2>
+                  </Link>
+                </div>
+              </div>
               <div className="absolute top-6 left-[90px]">
                 <h1
                   className={`text-bold text-2xl w-full text-center items-center mx-auto cursor-pointer opacity-100 group-hover:opacity-0 transition-opacity duration-300 hover:text-red-300 ${
@@ -156,15 +237,21 @@ const LatestProjects = () => {
               {/* HoverIconsLink */}
               <div className="absolute bottom-[170px] left-[80px] gap-[40px] hover:backdrop-blur-none flex flex-row group-hover:-rotate-180 opacity-0 group-hover:opacity-100 group-hover:visible transition-opacity duration-300">
                 <div className="flex flex-col items-center">
-                  <Link target="_blank" href="https://github-user-api-react.netlify.app/">
-                    <IoLogoVercel size={40} />
-                    <h2>Vercel</h2>
+                  <Link
+                    target="_blank"
+                    href="https://github-user-api-react.netlify.app/"
+                  >
+                    <BiLogoNetlify size={40} />
+                    <h2>Netlify</h2>
                   </Link>
                 </div>
                 <div className="flex flex-col items-center">
-                <Link target="_blank" href="https://github.com/Lazzzare/GithubUserAPI-React">
-                  <AiFillGithub size={40} />
-                  <h2>Github</h2>
+                  <Link
+                    target="_blank"
+                    href="https://github.com/Lazzzare/GithubUserAPI-React"
+                  >
+                    <AiFillGithub size={40} />
+                    <h2>Github</h2>
                   </Link>
                 </div>
               </div>
@@ -192,6 +279,26 @@ const LatestProjects = () => {
                 and TypeScript, designed to assist users in calculating tips for
                 various services.
               </p>
+              <div className="absolute bottom-[200px] left-[80px] gap-[40px] hover:backdrop-blur-none flex flex-row group-hover:-rotate-180 opacity-0 group-hover:opacity-100 group-hover:visible transition-opacity duration-300">
+                <div className="flex flex-col items-center">
+                  <Link
+                    target="_blank"
+                    href="https://tip-calculator-reacttsx.netlify.app/"
+                  >
+                    <BiLogoNetlify size={40} />
+                    <h2>Netlify</h2>
+                  </Link>
+                </div>
+                <div className="flex flex-col items-center">
+                  <Link
+                    target="_blank"
+                    href="https://github.com/Lazzzare/TipCalculator-React"
+                  >
+                    <AiFillGithub size={40} />
+                    <h2>Github</h2>
+                  </Link>
+                </div>
+              </div>
               <div className="absolute top-6 left-[50px]">
                 <h1
                   className={`text-bold text-3xl cursor-pointer hover:text-red-300 group-hover:opacity-0 transition-opacity ${
