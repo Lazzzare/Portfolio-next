@@ -91,16 +91,16 @@ const LatestProjects = () => {
                 alt="image"
               />
               <p
-                className={`absolute top-[140px] right-[20px] text-slate-800 font-bold dark:font-normal dark:text-red-300 hover:backdrop-blur-none group-hover:-rotate-180 text-lg cursor-pointer  opacity-0 group-hover:opacity-100 group-hover:visible transition-opacity duration-300`}
+                className={`absolute top-[140px] right-[15px] text-slate-800 font-bold dark:font-normal dark:text-red-300 hover:backdrop-blur-none group-hover:-rotate-180 text-lg cursor-pointer  opacity-0 group-hover:opacity-100 group-hover:visible transition-opacity duration-300`}
               >
-                This is a simple yet powerful Todo App built using React,
-                Tailwind CSS, Framer-motion and TypeScript.
+                Welcome to the Tic-Tac-Toe game, a project built with React,
+                TypeScript, React-router and Tailwind CSS.
               </p>
               <div className="absolute bottom-[170px] left-[80px] gap-[40px] hover:backdrop-blur-none flex flex-row group-hover:-rotate-180 opacity-0 group-hover:opacity-100 group-hover:visible transition-opacity duration-300">
                 <Link
                   className="flex flex-col items-center hover:text-gray-600 dark:hover:text-red-400"
                   target="_blank"
-                  href="https://github-user-api-react.netlify.app/"
+                  href="https://tic-tac-toe-react-ivory.vercel.app/"
                 >
                   <BiLogoNetlify
                     size={40}
@@ -112,7 +112,7 @@ const LatestProjects = () => {
                 <Link
                   className="flex flex-col items-center hover:text-gray-600 dark:hover:text-red-400"
                   target="_blank"
-                  href="https://github.com/Lazzzare/GithubUserAPI-React"
+                  href="https://github.com/Lazzzare/TicTacToe-React"
                 >
                   <AiFillGithub
                     size={40}
