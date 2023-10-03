@@ -8,10 +8,33 @@ import { HiOutlineMenuAlt1 } from "react-icons/hi";
 import { HiXMark } from "react-icons/hi2";
 import { useTheme } from "next-themes";
 import { useState } from "react";
+import Link from "next/link";
 
 const Navbar = () => {
   const [mobileMenu, setMobileMenu] = useState<boolean>(false);
-  const menuArray = ["home", "skills", "project", "contact"];
+  // const menuArray = ["home", "skills", "project", "contact"];
+  const menuArray = [
+    {
+      id: 1,
+      title: "menu",
+      link: <Link href="/app/page.tsx"></Link>,
+    },
+    {
+      id: 2,
+      title: "skills",
+      link: <Link href="/app/skills"></Link>,
+    },
+    {
+      id: 3,
+      title: "projects",
+      link: <Link href="/app/projects"></Link>,
+    },
+    {
+      id: 4,
+      title: "contact",
+      link: <Link href="/app/contact"></Link>,
+    },
+  ];
   const { theme, setTheme } = useTheme();
 
   return (
@@ -61,7 +84,7 @@ const Navbar = () => {
               {menuArray.map((item, index) => (
                 <li key={index} className="list-none">
                   <h3 key={index} className="cursor-pointer">
-                    {item}
+                  {item.title}
                   </h3>
                 </li>
               ))}
