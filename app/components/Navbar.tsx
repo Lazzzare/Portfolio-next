@@ -17,22 +17,22 @@ const Navbar = () => {
     {
       id: 1,
       title: "menu",
-      link: <Link href="/app/page.tsx"></Link>,
+      link: "/",
     },
     {
       id: 2,
       title: "skills",
-      link: <Link href="/app/skills"></Link>,
+      link: "skills",
     },
     {
       id: 3,
       title: "projects",
-      link: <Link href="/app/projects"></Link>,
+      link: "projects",
     },
     {
       id: 4,
       title: "contact",
-      link: <Link href="/app/contact"></Link>,
+      link: "contact",
     },
   ];
   const { theme, setTheme } = useTheme();
@@ -83,9 +83,11 @@ const Navbar = () => {
             <div className="hidden md:flex items-center gap-x-5">
               {menuArray.map((item, index) => (
                 <li key={index} className="list-none">
-                  <h3 key={index} className="cursor-pointer">
-                  {item.title}
-                  </h3>
+                  <Link href={item.link}>
+                    <h3 key={index} className="cursor-pointer">
+                      {item.title}
+                    </h3>
+                  </Link>
                 </li>
               ))}
             </div>
