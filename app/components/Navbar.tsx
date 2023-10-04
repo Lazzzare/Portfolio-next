@@ -12,7 +12,6 @@ import Link from "next/link";
 
 const Navbar = () => {
   const [mobileMenu, setMobileMenu] = useState<boolean>(false);
-  // const menuArray = ["home", "skills", "project", "contact"];
   const menuArray = [
     {
       id: 1,
