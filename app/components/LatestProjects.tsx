@@ -345,7 +345,7 @@ const LatestProjects = () => {
         <div className="text-right mt-10 mb-20 font-bold text-3xl cursor-pointer items-center text-red-500 hover:dark:text-red-300 hover:text-red-400">
           <Link href="/projects" className="w-full flex gap-x-2 items-center justify-end justify-items-end flex-row">
             <h2>See all projects </h2>
-            <BsArrowRight className="" />
+            <BsArrowRight />
           </Link>
         </div>
       </div>
