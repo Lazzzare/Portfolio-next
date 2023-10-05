@@ -562,13 +562,13 @@ const page = () => {
                   alt="InteractiveRatingComponentSvelte"
                 />
                 <p
-                  className={`absolute top-[140px] right-[15px] text-slate-800 font-bold dark:font-normal dark:text-red-300 hover:backdrop-blur-none group-hover:-rotate-180 text-lg cursor-pointer  opacity-0 group-hover:opacity-100 group-hover:visible transition-opacity duration-300`}
+                  className={`absolute top-[110px] right-[15px] text-slate-800 font-bold dark:font-normal dark:text-red-300 hover:backdrop-blur-none group-hover:-rotate-180 text-lg cursor-pointer  opacity-0 group-hover:opacity-100 group-hover:visible transition-opacity duration-300`}
                 >
                   The Interactive Rating Component is a user-friendly Svelte
                   Project that allows you to add interactive rating
                   functionalities to your web applications.
                 </p>
-                <div className="absolute bottom-[170px] left-[80px] gap-[40px] hover:backdrop-blur-none flex flex-row group-hover:-rotate-180 opacity-0 group-hover:opacity-100 group-hover:visible transition-opacity duration-300">
+                <div className="absolute bottom-[200px] left-[80px] gap-[40px] hover:backdrop-blur-none flex flex-row group-hover:-rotate-180 opacity-0 group-hover:opacity-100 group-hover:visible transition-opacity duration-300">
                   <Link
                     className="flex flex-col items-center hover:text-gray-600 dark:hover:text-red-400"
                     target="_blank"
