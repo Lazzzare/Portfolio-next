@@ -6,7 +6,6 @@ interface RootLayoutProps {
 }
 
 const Providers = ({ children }: RootLayoutProps) => {
-  // const { theme, setTheme } = useTheme();
   return (
     <ThemeProvider attribute="class" enableSystem>
       {children}
