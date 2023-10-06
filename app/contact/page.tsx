@@ -13,7 +13,7 @@ const page = () => {
         >
           <input className="p-2" type="text" placeholder="Name" name="name" required />
           <input
-            className="p-2 focus:outline-red-400"
+            className="p-2 outline-red-400"
             type="email"
             placeholder="Email"
             name="email"
@@ -26,7 +26,7 @@ const page = () => {
             placeholder="Message"
             required
           ></textarea>
-          <button className="bg-red-500 font-bold w-full px-8 py-3 text-white items-center mx-auto">
+          <button className="bg-red-500 text-lg font-bold w-full px-8 py-3 text-white items-center mx-auto">
             Submit
           </button>
         </form>
