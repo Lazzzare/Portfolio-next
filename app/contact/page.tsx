@@ -1,8 +1,9 @@
 "use client";
 import React from "react";
 import Image from "next/image";
+import Link from "next/link";
 import Linkedin from "../images/Linkedin.png";
-import Github from "../images/Github.svg";
+import Github from "../images/github-mark.svg";
 import Gmail from "../images/Gmail.png";
 
 const page = () => {
@@ -40,10 +41,16 @@ const page = () => {
             Submit
           </button>
         </form>
-        <div className="items-center flex flex-row justify-center mx-auto gap-4">
-          <Image src={Linkedin} width={30} height={30} alt="Linkedin" />
-          <Image src={Github} width={30} height={30} alt="Github" />
-          <Image src={Gmail} width={30} height={30} alt="Gmail" />
+        <div className="items-center flex flex-row justify-center mx-auto gap-8">
+          <Link href="https://www.linkedin.com/in/lazare-chkhartishvili-0a6434235/" target="_blank">
+            <Image src={Linkedin} width={50} height={50} alt="Linkedin" />
+          </Link>
+          <Link href="https://github.com/Lazzzare" target="_blank">
+            <Image src={Github} width={50} height={50} alt="Github" />
+          </Link>
+          <Link href="mailto:chxartishvililazare@gmail.com" target="_blank">
+            <Image src={Gmail} width={50} height={50} alt="Gmail" />
+          </Link>
         </div>
       </div>
     </div>
