@@ -1,7 +1,9 @@
 "use client";
 import React from "react";
-import {AiFillLinkedin, AiFillGithub} from 'react-icons/ai'
-import {BiLogoGmail} from 'react-icons/bi'
+import Image from "next/image";
+import Linkedin from "../images/Linkedin.png";
+import Github from "../images/Github.svg";
+import Gmail from "../images/Gmail.png";
 
 const page = () => {
   return (
@@ -13,7 +15,13 @@ const page = () => {
           action="https://getform.io/f/193741d2-0b2d-47e1-aa61-d8bfb1002308"
           className="mt-8 max-w-[600px] w-full flex flex-col space-y-4"
         >
-          <input className="p-2 border-2 border-transparent focus:border-red-400 rounded focus:outline-none" type="text" placeholder="Name" name="name" required />
+          <input
+            className="p-2 border-2 border-transparent focus:border-red-400 rounded focus:outline-none"
+            type="text"
+            placeholder="Name"
+            name="name"
+            required
+          />
           <input
             className="p-2 border-2 border-transparent focus:border-red-400 rounded focus:outline-none"
             type="email"
@@ -32,10 +40,10 @@ const page = () => {
             Submit
           </button>
         </form>
-        <div className="items-center flex flex-row justify-center mx-auto gap-4 text-4xl">
-          <AiFillLinkedin className="text-[#0e76a8]" />
-          <AiFillGithub />
-          <BiLogoGmail />
+        <div className="items-center flex flex-row justify-center mx-auto gap-4">
+          <Image src={Linkedin} width={30} height={30} alt="Linkedin" />
+          <Image src={Github} width={30} height={30} alt="Github" />
+          <Image src={Gmail} width={30} height={30} alt="Gmail" />
         </div>
       </div>
     </div>
