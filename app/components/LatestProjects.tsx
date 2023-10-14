@@ -37,7 +37,7 @@ const LatestProjects = () => {
           {/* Projects */}
           <div className="flex flex-col gap-8 md:flex-row justify-between">
             {/* Project 1 */}
-            <div className="relative h-full w-full hover:scale-105 duration-300 max-w-[300px] cursor-pointer group hover:rotate-180">
+            <div className="relative h-full w-full hover:scale-105 duration-300 max-w-[300px] group hover:rotate-180">
               <Image
                 className="rounded-xl inset-0 h-[300px] w-[300px] object-cover opacity-100 group-hover:opacity-20 hover:backdrop-blur-lg duration-300"
                 src={TodoProjectImage}
@@ -84,7 +84,7 @@ const LatestProjects = () => {
               </div>
             </div>
             {/* Project 2 */}
-            <div className="relative h-full w-full hover:scale-105 duration-300 max-w-[300px] cursor-pointer group hover:rotate-180">
+            <div className="relative h-full w-full hover:scale-105 duration-300 max-w-[300px] group hover:rotate-180">
               <Image
                 className="rounded-xl inset-0 h-[300px] w-[300px] object-cover opacity-100 group-hover:opacity-20 hover:backdrop-blur-lg duration-300"
                 src={TicTacToe}
@@ -134,7 +134,7 @@ const LatestProjects = () => {
               </div>
             </div>
             {/* Project 3 */}
-            <div className="relative h-full w-full hover:scale-105 duration-300 max-w-[300px] cursor-pointer group hover:rotate-180">
+            <div className="relative h-full w-full hover:scale-105 duration-300 max-w-[300px] group hover:rotate-180">
               <Image
                 className="rounded-xl inset-0 h-[300px] w-[300px] object-cover opacity-100 group-hover:opacity-20 hover:backdrop-blur-lg duration-300"
                 src={PasswordGenerator}
@@ -170,7 +170,7 @@ const LatestProjects = () => {
                 </Link>
               </div>
               <div className="absolute top-6 left-[30px]">
-                <h1 className="text-bold text-2xl w-full text-center items-center mx-auto cursor-pointer opacity-100 group-hover:opacity-0 transition-opacity duration-300 hover:text-red-300 text-white">
+                <h1 className="text-bold text-2xl w-full text-center items-center mx-auto opacity-100 group-hover:opacity-0 transition-opacity duration-300 hover:text-red-300 text-white">
                   Password Generator
                 </h1>
               </div>
@@ -185,7 +185,7 @@ const LatestProjects = () => {
           {/* Below Projects */}
           <div className="mt-8 flex flex-col gap-8 md:flex-row justify-between">
             {/* Project 4 */}
-            <div className="relative h-full w-full hover:scale-105 duration-300 max-w-[300px] cursor-pointer group hover:rotate-180">
+            <div className="relative h-full w-full hover:scale-105 duration-300 max-w-[300px] group hover:rotate-180">
               <Image
                 className="rounded-xl inset-0 h-[300px] w-[300px] object-cover opacity-100 group-hover:opacity-20 hover:backdrop-blur-lg duration-300"
                 src={TodoAppSvelte}
@@ -237,7 +237,7 @@ const LatestProjects = () => {
               </div>
             </div>
             {/* Project 5 */}
-            <div className="relative h-full w-full hover:scale-105 duration-300 max-w-[300px] cursor-pointer group hover:rotate-180">
+            <div className="relative h-full w-full hover:scale-105 duration-300 max-w-[300px] group hover:rotate-180">
               <Image
                 className="rounded-xl inset-0 h-[300px] w-[300px] object-cover opacity-100 group-hover:opacity-20 hover:backdrop-blur-lg duration-300"
                 src={GithubProject}
@@ -287,7 +287,7 @@ const LatestProjects = () => {
               </div>
             </div>
             {/* Project 6 */}
-            <div className="relative h-full w-full hover:scale-105 duration-300 max-w-[300px] cursor-pointer group hover:rotate-180">
+            <div className="relative h-full w-full hover:scale-105 duration-300 max-w-[300px] group hover:rotate-180">
               <Image
                 className="rounded-xl inset-0 h-[300px] w-[300px] object-cover opacity-100 group-hover:opacity-20 hover:backdrop-blur-lg duration-300"
                 src={TipCalculatorProject}
