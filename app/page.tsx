@@ -27,40 +27,40 @@ const Home = () => {
             transition={{ duration: 0.5 }}
           >
             <h1 className="font-bold text-[32px] md:text-7xl">
-              I make websites.
+              I make websites
             </h1>
+            <motion.div
+              initial={{ opacity: 0, x: -500 }}
+              animate={{ opacity: 3, x: 0 }}
+              transition={{ duration: 1 }}
+            >
+              <h3 className="text-xl cursor-pointer py-4  text-red-500 dark:text-red-400 hover:dark:text-red-300 hover:text-red-400 max-w-[240px]">
+                with{" "}
+                <TypeAnimation
+                  sequence={[
+                    "Typescript",
+                    1000,
+                    "Javascript",
+                    1000,
+                    "React",
+                    1000,
+                    "Next.js",
+                    1000,
+                    "Tailwind",
+                    1000,
+                    "FramerMotion",
+                    1000,
+                  ]}
+                  wrapper="span"
+                  speed={50}
+                  repeat={Infinity}
+                />
+              </h3>
+            </motion.div>
             <p className="text-xl md:text-2xl max-w-[800px] mt-2">
               Hey there! {`I'm`} a passionate front-end developer with a love
               for creating captivating web experiences
             </p>
-          </motion.div>
-          <motion.div
-            initial={{ opacity: 0, x: -500 }}
-            animate={{ opacity: 3, x: 0 }}
-            transition={{ duration: 1 }}
-          >
-            <h3 className="text-xl cursor-pointer text-red-500 hover:dark:text-red-300 hover:text-red-400 max-w-[240px]">
-              I love{" "}
-              <TypeAnimation
-                sequence={[
-                  "Typescript",
-                  1000,
-                  "Javascript",
-                  1000,
-                  "React",
-                  1000,
-                  "Next.js",
-                  1000,
-                  "Tailwind",
-                  1000,
-                  "FramerMotion",
-                  1000,
-                ]}
-                wrapper="span"
-                speed={50}
-                repeat={Infinity}
-              />
-            </h3>
           </motion.div>
         </div>
 
