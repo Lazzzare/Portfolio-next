@@ -44,11 +44,15 @@ const Home = () => {
                     1000,
                     "React",
                     1000,
+                    "React-Native",
+                    1000,
                     "Next.js",
                     1000,
                     "Tailwind",
                     1000,
                     "FramerMotion",
+                    1000,
+                    "Svelte",
                     1000,
                   ]}
                   wrapper="span"
