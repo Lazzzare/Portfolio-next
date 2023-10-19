@@ -15,7 +15,7 @@ const Navbar = () => {
   const menuArray = [
     {
       id: 1,
-      title: "menu",
+      title: "home",
       link: "/",
     },
     {
