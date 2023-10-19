@@ -12,6 +12,7 @@ import Link from "next/link";
 
 const Navbar = () => {
   const [mobileMenu, setMobileMenu] = useState<boolean>(false);
+  const [activeMenu, setActiveMenu] = useState<number>(0);
   const menuArray = [
     {
       id: 1,
@@ -36,6 +37,7 @@ const Navbar = () => {
   ];
   const { theme, setTheme } = useTheme();
 
+  console.log(activeMenu);
   return (
     <>
       <div className="w-full flex flex-row justify-between items-center text-black dark:text-white">
@@ -81,7 +83,13 @@ const Navbar = () => {
           >
             <div className="hidden md:flex items-center gap-x-5">
               {menuArray.map((item, index) => (
-                <li key={index} className="list-none">
+                <li
+                  key={index}
+                  className={`list-none hover:text-red-400 ${
+                    activeMenu === index ? "text-red-400 " : null
+                  }`}
+                  onClick={() => setActiveMenu(index)}
+                >
                   <Link href={item.link}>
                     <h3 key={index} className="cursor-pointer">
                       {item.title}
