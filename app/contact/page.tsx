@@ -3,7 +3,7 @@ import React from "react";
 import Image from "next/image";
 import Link from "next/link";
 import Linkedin from "../images/Linkedin.png";
-import Github from "../images/github-mark.svg";
+import Github from "../images/github-icon.png";
 import Gmail from "../images/Gmail.png";
 
 const page = () => {
@@ -41,7 +41,7 @@ const page = () => {
             Submit
           </button>
         </form>
-        <div className="items-center flex flex-row justify-center mx-auto gap-8 border-2 border-black bg-grey-400 px-12 py-4 rounded-md">
+        <div className="items-center flex flex-row justify-center mx-auto gap-8 border-2 border-black px-12 py-4 rounded-md">
           <Link href="https://www.linkedin.com/in/lazare-chkhartishvili-0a6434235/" target="_blank">
             <Image src={Linkedin} width={50} height={50} alt="Linkedin" />
           </Link>
