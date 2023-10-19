@@ -10,7 +10,7 @@ const page = () => {
   return (
     <div className="mt-32">
       <h1 className="text-4xl font-bold tracking-wide">Contact</h1>
-      <div className="flex flex-row gap-10">
+      <div className="flex flex-row gap-10 justify-center items-center">
         <form
           method="POST"
           action="https://getform.io/f/193741d2-0b2d-47e1-aa61-d8bfb1002308"
@@ -41,7 +41,7 @@ const page = () => {
             Submit
           </button>
         </form>
-        <div className="items-center flex flex-row justify-center mx-auto gap-8">
+        <div className="items-center flex flex-row justify-center mx-auto gap-8 border-1 border-black px-12 py-4 rounded-md bg-red-300">
           <Link href="https://www.linkedin.com/in/lazare-chkhartishvili-0a6434235/" target="_blank">
             <Image src={Linkedin} width={50} height={50} alt="Linkedin" />
           </Link>
