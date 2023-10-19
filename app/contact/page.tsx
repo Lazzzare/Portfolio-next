@@ -5,10 +5,16 @@ import Link from "next/link";
 import Linkedin from "../images/Linkedin.png";
 import Github from "../images/github-icon.png";
 import Gmail from "../images/Gmail.png";
+import { motion } from "framer-motion";
 
 const page = () => {
   return (
     <div className="mt-32">
+      <motion.div
+          initial={{ opacity: 0, x: -200 }}
+          animate={{ opacity: 1, x: 0 }}
+          transition={{ duration: 0.5 }}
+        >
       <h1 className="text-4xl font-bold tracking-wide">Contact</h1>
       <div className="flex flex-row gap-10 justify-center items-center">
         <form
@@ -41,7 +47,8 @@ const page = () => {
             Submit
           </button>
         </form>
-        <div className="items-center flex flex-row justify-center mx-auto gap-8 border-2 border-black px-12 py-4 rounded-md">
+        </motion.div>
+        <div className="items-center flex flex-row justify-center mx-auto gap-8 bg-slate-400 px-12 py-4 rounded-md">
           <Link href="https://www.linkedin.com/in/lazare-chkhartishvili-0a6434235/" target="_blank">
             <Image src={Linkedin} width={50} height={50} alt="Linkedin" />
           </Link>
