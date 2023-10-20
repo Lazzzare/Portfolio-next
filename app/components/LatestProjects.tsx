@@ -31,9 +31,11 @@ const LatestProjects = () => {
       transition={{ duration: 1 }}
     >
       <div className="mt-32">
-        <div className="text-4xl font-bold tracking-wide">Latest Projects</div>
+        <div className="text-4xl font-bold tracking-wide md:items-start md:justify-start md:mx-0 items-center mx-auto flex justify-center">
+          Latest Projects
+        </div>
         {/*  */}
-        <div className="mt-8">
+        <div className="mt-8 mb-10">
           {/* Projects */}
           <div className="flex flex-col gap-8 md:flex-row md:justify-between mx-auto justify-center items-center">
             {/* Project 1 */}
