@@ -80,8 +80,13 @@ const Navbar = () => {
                   return (
                     <Link key={menuItem.id} href={menuItem.link}>
                       <li
-                        className="text-4xl tracking-wide font-bold text-red-400 hover:text-red-500
-                      "
+                        onClick={() => {
+                          setMobileMenu(false);
+                          setActiveMenu(menuItem.id);
+                        }}
+                        className={`${
+                          activeMenu === menuItem.id ? "text-red-400 " : null
+                        } text-4xl tracking-wide font-bold text-red-400 hover:text-red-500`}
                       >
                         {menuItem.title}
                       </li>
@@ -103,7 +108,7 @@ const Navbar = () => {
                 <li
                   key={index}
                   className={`list-none hover:text-red-400 ${
-                    activeMenu === index ? "text-red-400 " : null
+                    activeMenu === item.id ? "text-red-400 " : null
                   }`}
                   onClick={() => setActiveMenu(index)}
                 >
