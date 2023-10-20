@@ -31,14 +31,17 @@ const page = () => {
       </div>
       {/* Skill Icons */}
       <div className="flex flex-row flex-wrap w-full mt-8 gap-10">
-        <div className="bg-slate-900 p-6 rounded-md cursor-pointer">
+        <div className="bg-slate-900 p-6 rounded-md cursor-pointer flex flex-col items-center text-center">
           <AiFillHtml5 size={100} color={"yellow"} />
+          <h1>HTML</h1>
         </div>
-        <div className="bg-slate-900 p-6 rounded-md cursor-pointer">
+        <div className="bg-slate-900 p-6 rounded-md cursor-pointer flex flex-col items-center text-center">
           <BiLogoCss3 size={100} color={"orange"} />
+          <h1>CSS</h1>
         </div>
-        <div className="bg-slate-900 p-6 rounded-md cursor-pointer">
+        <div className="bg-slate-900 p-6 rounded-md cursor-pointer flex flex-col items-center text-center">
           <BiLogoJavascript size={100} color={"yellow"} />
+          <h1>Javascript</h1>
         </div>
         <div className="bg-slate-900 p-6 rounded-md text-blue-500 cursor-pointer">
           <BiLogoReact size={100} />
@@ -70,7 +73,7 @@ const page = () => {
         <div className="bg-slate-900 p-6 rounded-md text-blue-400 cursor-pointer">
           <BiLogoTailwindCss size={100} />
         </div>
-        <div className="bg-slate-900 p-6 rounded-md  text-pink-600 cursor-pointer">
+        <div className="bg-slate-900 p-6 rounded-md  text-purple-400 cursor-pointer">
           <SiStyledcomponents size={100} />
         </div>
         <div className="bg-slate-900 p-6 rounded-md text-purple-600 cursor-pointer">
