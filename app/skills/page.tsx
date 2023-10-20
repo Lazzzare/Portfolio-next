@@ -31,16 +31,16 @@ const page = () => {
       </div>
       {/* Skill Icons */}
       <div className="flex flex-row flex-wrap w-full mt-8 gap-10">
-        <div className="bg-slate-900 p-6 rounded-md cursor-pointer flex flex-col items-center text-center">
-          <AiFillHtml5 size={100} color={"yellow"} />
+        <div className="bg-slate-900 p-6 rounded-md cursor-pointer text-orange-600 flex flex-col items-center text-center">
+          <AiFillHtml5 size={100} />
           <h1>HTML</h1>
         </div>
-        <div className="bg-slate-900 p-6 rounded-md cursor-pointer flex flex-col items-center text-center">
-          <BiLogoCss3 size={100} color={"orange"} />
+        <div className="bg-slate-900 p-6 rounded-md cursor-pointer text-blue-400 flex flex-col items-center text-center">
+          <BiLogoCss3 size={100} />
           <h1>CSS</h1>
         </div>
-        <div className="bg-slate-900 p-6 rounded-md cursor-pointer flex flex-col items-center text-center">
-          <BiLogoJavascript size={100} color={"yellow"} />
+        <div className="bg-slate-900 p-6 rounded-md cursor-pointer text-yellow-400 flex flex-col items-center text-center">
+          <BiLogoJavascript size={100} />
           <h1>Javascript</h1>
         </div>
         <div className="bg-slate-900 p-6 rounded-md text-blue-500 cursor-pointer flex flex-col items-center text-center">
@@ -101,6 +101,7 @@ const page = () => {
         </div>
         <div className="bg-slate-900 p-6 rounded-md text-pink-400  cursor-pointer flex flex-col items-center text-center">
           <BiLogoFigma size={100} />
+          <h1>Figma</h1>
         </div>
         <div className="bg-slate-900 p-6 rounded-md text-orange-700 cursor-pointer flex flex-col items-center text-center">
           <BsGit size={100} />
