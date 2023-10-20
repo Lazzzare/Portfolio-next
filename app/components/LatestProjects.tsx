@@ -30,6 +30,7 @@ const LatestProjects = () => {
       animate={{ opacity: 3, x: 0 }}
       transition={{ duration: 1 }}
     >
+      {/* <Navbar /> */}
       <div className="mt-32">
         <div className="text-4xl font-bold tracking-wide">Latest Projects</div>
         {/*  */}
