@@ -11,7 +11,7 @@ const page = () => {
   return (
     <div className="mt-32">
       <h1 className="text-4xl font-bold tracking-wide">Contact</h1>
-      <div className="flex flex-row gap-10 justify-center items-center">
+      <div className="flex flex-row md:flex-col-reverse md:mx-auto md:items-center md:justify-center gap-10 justify-center items-center">
         <form
           method="POST"
           action="https://getform.io/f/193741d2-0b2d-47e1-aa61-d8bfb1002308"
