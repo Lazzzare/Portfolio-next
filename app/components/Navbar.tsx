@@ -74,7 +74,7 @@ const Navbar = () => {
             </div>
           )}
           {mobileMenu ? (
-            <div className="w-full h-screen flex flex-col items-center mx-auto justify-center bg-black z-10 text-orange-400 hover:text-orange-500">
+            <div className="absolute left-0 right-0 top-0 w-full h-screen flex flex-col items-center mx-auto justify-center bg-black z-10 text-orange-400 hover:text-orange-500">
               <ul className="flex flex-col items-center mx-auto justify-center">
                 {menuArray.map((menuItem) => {
                   return (
