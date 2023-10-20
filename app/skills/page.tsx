@@ -10,7 +10,7 @@ const page = () => {
       {/* Skill Icons */}
       <div className="flex flex-row flex-wrap w-full mt-8">
         <div className="rounded-lg border-1 border-slate-500">
-          <BiLogoJavascript size={100} />
+          <BiLogoJavascript size={100} color={"yellow"} />
         </div>
         <div className="rounded-lg border-1 border-slate-500">
           <BiLogoJavascript size={100} />
