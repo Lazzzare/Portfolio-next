@@ -37,7 +37,6 @@ const Navbar = () => {
   ];
   const { theme, setTheme } = useTheme();
 
-  console.log(activeMenu);
   return (
     <>
       <div className="w-full flex flex-row justify-between items-center text-black dark:text-white">
