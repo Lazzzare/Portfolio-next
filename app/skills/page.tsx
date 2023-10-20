@@ -31,14 +31,14 @@ const page = () => {
       </div>
       {/* Skill Icons */}
       <div className="flex flex-row flex-wrap w-full mt-8 gap-10">
-        <div className="  cursor-pointer">
+        <div className="bg-slate-400 p-6 rounded-md cursor-pointer">
           <AiFillHtml5 size={100} color={"yellow"} />
         </div>
         <div className="   cursor-pointer">
           <BiLogoCss3 size={100} color={"orange"} />
         </div>
         <div className="   cursor-pointer">
-          <BiLogoJavascript size={100} color={"blue"} />
+          <BiLogoJavascript size={100} color={"yellow"} />
         </div>
         <div className="   text-blue-500 cursor-pointer">
           <BiLogoReact size={100} />
