@@ -85,7 +85,7 @@ const Navbar = () => {
                           setActiveMenu(menuItem.id);
                         }}
                         className={`${
-                          activeMenu === menuItem.id ? "text-red-400 " : null
+                          activeMenu === menuItem.id ? "text-red-500 " : null
                         } text-4xl tracking-wide font-bold text-red-400 hover:text-red-500`}
                       >
                         {menuItem.title}
