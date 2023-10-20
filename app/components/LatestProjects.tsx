@@ -35,7 +35,7 @@ const LatestProjects = () => {
         {/*  */}
         <div className="mt-8">
           {/* Projects */}
-          <div className="flex flex-col gap-8 md:flex-row justify-between">
+          <div className="flex flex-col gap-8 md:flex-row md:justify-between mx-auto justify-center items-center">
             {/* Project 1 */}
             <div className="relative h-full w-full hover:scale-105 duration-300 max-w-[300px] group hover:rotate-180">
               <Image
@@ -342,7 +342,7 @@ const LatestProjects = () => {
           </div>
         </div>
         {/* Button */}
-        <div className="text-right mt-10 mb-20 font-bold text-3xl cursor-pointer items-center text-red-500 hover:dark:text-red-300 hover:text-red-400">
+        {/* <div className="text-right mt-10 mb-20 font-bold text-3xl cursor-pointer items-center text-red-500 hover:dark:text-red-300 hover:text-red-400">
           <Link
             href="/projects"
             className="w-full flex gap-x-2 items-center justify-end justify-items-end flex-row"
@@ -350,7 +350,7 @@ const LatestProjects = () => {
             <h2>See all projects </h2>
             <BsArrowRight />
           </Link>
-        </div>
+        </div> */}
       </div>
     </motion.div>
   );
