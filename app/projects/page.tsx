@@ -43,7 +43,7 @@ const page = () => {
             Projects
           </div>
           {/*  */}
-          <div className="mt-8">
+          <div className="mt-8 mb-8">
             {/* Projects */}
             <div className="flex flex-col gap-8 md:gap-8 md:flex-row md:space-y-8 md:flex md:justify-between mx-auto justify-center items-center">
               {/* Project 1 */}
