@@ -70,10 +70,10 @@ const page = () => {
         <div className="bg-slate-200 p-6 rounded-md text-blue-400 cursor-pointer">
           <BiLogoTailwindCss size={100} />
         </div>
-        <div className="bg-slate-200 p-6 rounded-md  text-gray-500 cursor-pointer">
+        <div className="bg-slate-500 p-6 rounded-md  text-gray-500 cursor-pointer">
           <SiStyledcomponents size={100} />
         </div>
-        <div className="bg-slate-200 p-6 rounded-md text-purple-600 cursor-pointer">
+        <div className="bg-slate-500 p-6 rounded-md text-purple-600 cursor-pointer">
           <BsFillBootstrapFill size={100} />
         </div>
         <div className="bg-slate-200 p-6 rounded-md text-blue-500 cursor-pointer">
