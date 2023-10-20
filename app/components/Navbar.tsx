@@ -12,7 +12,7 @@ import Link from "next/link";
 
 const Navbar = () => {
   const [mobileMenu, setMobileMenu] = useState<boolean>(false);
-  const [activeMenu, setActiveMenu] = useState<number>(0);
+  const [activeMenu, setActiveMenu] = useState<number>(1);
   const menuArray = [
     {
       id: 1,
