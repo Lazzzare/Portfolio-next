@@ -10,10 +10,10 @@ import { motion } from "framer-motion";
 const page = () => {
   return (
     <div className="mt-32">
-      <h1 className="text-4xl font-bold tracking-wide mx-auto items-center justify-center">
+      <h1 className="text-4xl font-bold tracking-wide mx-auto text-center flex items-center justify-center">
         Contact
       </h1>
-      <div className="flex md:flex-col-reverse md:mx-auto md:items-center md:justify-center gap-10">
+      <div className="flex flex-col-reverse mx-auto items-center justify-center gap-10">
         <form
           method="POST"
           action="https://getform.io/f/193741d2-0b2d-47e1-aa61-d8bfb1002308"
