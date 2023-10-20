@@ -30,7 +30,7 @@ const page = () => {
         Skills
       </div>
       {/* Skill Icons */}
-      <div className="flex flex-row w-full mt-8 gap-10">
+      <div className="flex flex-row flex-wrap w-full mt-8 gap-10">
         <div className=" bg-black cursor-pointer">
           <AiFillHtml5 size={150} color={"yellow"} />
         </div>
