@@ -9,7 +9,7 @@ import Navbar from "../app/components/Navbar";
 const Home = () => {
   return (
     <>
-      {/* <Navbar /> */}
+      <Navbar />
       <div>
         <div className="flex flex-col pt-20 md:pt-40 gap-y-4">
           <motion.div
