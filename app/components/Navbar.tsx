@@ -110,7 +110,7 @@ const Navbar = () => {
                   className={`list-none hover:text-red-400 ${
                     activeMenu === item.id ? "text-red-400 " : null
                   }`}
-                  onClick={() => setActiveMenu(index)}
+                  onClick={() => setActiveMenu(item.id)}
                 >
                   <Link href={item.link}>
                     <h3 key={index} className="cursor-pointer">
