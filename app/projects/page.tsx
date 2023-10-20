@@ -190,7 +190,7 @@ const page = () => {
               </div>
             </div>
             {/* Below Projects */}
-            <div className="mt-8 flex flex-col gap-8 md:flex-row justify-between">
+            <div className="flex flex-col gap-8 md:flex-row md:justify-between mx-auto justify-center items-center">
               {/* Project 4 */}
               <div className="relative h-full w-full hover:scale-105 duration-300 max-w-[300px] cursor-pointer group hover:rotate-180">
                 <Image
@@ -346,7 +346,7 @@ const page = () => {
             </div>
 
             {/* All Projects (3col) */}
-            <div className="flex flex-col gap-8 mt-8 md:flex-row justify-between">
+            <div className="flex flex-col gap-8 md:flex-row md:justify-between mx-auto justify-center items-center">
               {/* Project 1 */}
               <div className="relative h-full w-full hover:scale-105 duration-300 max-w-[300px] cursor-pointer group hover:rotate-180">
                 <Image
@@ -506,7 +506,7 @@ const page = () => {
             </div>
 
             {/* All Projects (last cols) */}
-            <div className="flex flex-col gap-8 mt-8 mb-8 md:flex-row justify-between">
+            <div className="flex flex-col gap-8 md:flex-row md:justify-between mx-auto justify-center items-center mb-8">
               {/* Project 1 */}
               <div className="relative h-full w-full hover:scale-105 duration-300 max-w-[300px] cursor-pointer group hover:rotate-180">
                 <Image
