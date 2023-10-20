@@ -10,7 +10,6 @@ import { motion } from "framer-motion";
 const page = () => {
   return (
     <div className="mt-32">
-      <div>
       <h1 className="text-4xl font-bold tracking-wide">Contact</h1>
       <div className="flex flex-row gap-10 justify-center items-center">
         <form
@@ -24,28 +23,30 @@ const page = () => {
             placeholder="Name"
             name="name"
             required
-            />
+          />
           <input
             className="p-2 border-2 border-transparent focus:border-red-400 rounded focus:outline-none"
             type="email"
             placeholder="Email"
             name="email"
             required
-            />
+          />
           <textarea
             className="p-2 border-2 border-transparent focus:border-red-400 rounded focus:outline-none"
             name="message"
             rows={10}
             placeholder="Message"
             required
-            ></textarea>
+          ></textarea>
           <button className="bg-red-500 text-lg font-bold w-full px-8 py-3 text-white items-center mx-auto rounded">
             Submit
           </button>
         </form>
-      </div>
         <div className="items-center flex flex-row justify-center mx-auto gap-8 bg-slate-400 px-12 py-4 rounded-md">
-          <Link href="https://www.linkedin.com/in/lazare-chkhartishvili-0a6434235/" target="_blank">
+          <Link
+            href="https://www.linkedin.com/in/lazare-chkhartishvili-0a6434235/"
+            target="_blank"
+          >
             <Image src={Linkedin} width={50} height={50} alt="Linkedin" />
           </Link>
           <Link href="https://github.com/Lazzzare" target="_blank">
