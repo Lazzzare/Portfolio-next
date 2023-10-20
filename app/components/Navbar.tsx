@@ -62,7 +62,7 @@ const Navbar = () => {
         {/* BurgerMenu */}
         <div className="flex flex-row-reverse md:flex-row items-center gap-x-4">
           {mobileMenu ? (
-            <div className="flex md:hidden cursor-pointer">
+            <div className="flex md:hidden cursor-pointer z-50">
               <HiXMark onClick={() => setMobileMenu(!mobileMenu)} size={25} />
             </div>
           ) : (
@@ -74,7 +74,7 @@ const Navbar = () => {
             </div>
           )}
           {mobileMenu ? (
-            <div className="w-full h-screen flex flex-col items-center mx-auto justify-center bg-black text-orange-400 hover:text-orange-500">
+            <div className="w-full h-screen flex flex-col items-center mx-auto justify-center bg-black z-10 text-orange-400 hover:text-orange-500">
               <ul className="flex flex-col items-center mx-auto justify-center">
                 {menuArray.map((menuItem) => {
                   return (
