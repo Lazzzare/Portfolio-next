@@ -83,7 +83,7 @@ const page = () => {
           <BiLogoTailwindCss size={100} />
           <h1>Tailwind</h1>
         </div>
-        <div className="bg-slate-900 p-6 rounded-md  text-purple-400 cursor-pointer flex flex-col items-center text-center">
+        <div className="bg-slate-900 p-6 rounded-md  text-purple-400 max-w-[148px] cursor-pointer flex flex-col items-center text-center">
           <SiStyledcomponents size={100} />
           <h1>Styled-components</h1>
         </div>
@@ -95,7 +95,7 @@ const page = () => {
           <DiMaterializecss size={100} />
           <h1>MaterialUI</h1>
         </div>
-        <div className="bg-slate-900 p-6 rounded-md text-blue-600 cursor-pointer flex flex-col items-center text-center">
+        <div className="bg-slate-900 p-6 rounded-md text-blue-600 max-w-[148px] cursor-pointer flex flex-col items-center text-center">
           <FiFramer size={100} />
           <h1>Framer-motion</h1>
         </div>
