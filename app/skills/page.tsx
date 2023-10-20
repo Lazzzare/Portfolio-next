@@ -9,22 +9,22 @@ const page = () => {
       </div>
       {/* Skill Icons */}
       <div className="flex flex-row flex-wrap w-full mt-8">
-        <div className="w-[50px] h-[50px] rounded-lg border-1 border-slate-500">
-          <BiLogoJavascript size={50} />
-        </div>
-        <div className="w-[50px] h-[50px] rounded-lg border-1 border-slate-500">
-          <BiLogoJavascript size={50} />
-        </div>
-        <div className="w-[50px] h-[50px] rounded-lg border-1 border-slate-500">
-          <BiLogoJavascript size={50} />
-        </div>
-        <div className="w-[50px] h-[50px] rounded-lg border-1 border-slate-500">
+        <div className="rounded-lg border-1 border-slate-500">
           <BiLogoJavascript size={100} />
         </div>
-        <div className="w-[50px] h-[50px] rounded-lg border-1 border-slate-500">
+        <div className="rounded-lg border-1 border-slate-500">
           <BiLogoJavascript size={100} />
         </div>
-        <div className="w-[50px] h-[50px] rounded-lg border-1 border-slate-500">
+        <div className="rounded-lg border-1 border-slate-500">
+          <BiLogoJavascript size={100} />
+        </div>
+        <div className="rounded-lg border-1 border-slate-500">
+          <BiLogoJavascript size={100} />
+        </div>
+        <div className="rounded-lg border-1 border-slate-500">
+          <BiLogoJavascript size={100} />
+        </div>
+        <div className="rounded-lg border-1 border-slate-500">
           <BiLogoJavascript size={100} />
         </div>
       </div>
