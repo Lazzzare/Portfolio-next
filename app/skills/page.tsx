@@ -1,5 +1,7 @@
 import React from "react";
-import { BiLogoJavascript } from "react-icons/bi";
+import { BiLogoJavascript, BiLogoCss3, BiLogoReact } from "react-icons/bi";
+import { AiFillHtml5 } from "react-icons/ai";
+import { SiNextdotjs, SiSvelte } from "react-icons/si";
 
 const page = () => {
   return (
@@ -9,23 +11,23 @@ const page = () => {
       </div>
       {/* Skill Icons */}
       <div className="flex flex-row flex-wrap w-full mt-8">
-        <div className="rounded-lg border-1 border-slate-500 bg-black">
+        <div className="rounded-lg border-[1px] border-slate-500 bg-black">
           <BiLogoJavascript size={100} color={"yellow"} />
         </div>
-        <div className="rounded-lg border-1 border-slate-500">
-          <BiLogoJavascript size={100} />
+        <div className="rounded-lg border-[1px] border-slate-500 bg-black ">
+          <AiFillHtml5 size={100} color={"orange"} />
         </div>
-        <div className="rounded-lg border-1 border-slate-500">
-          <BiLogoJavascript size={100} />
+        <div className="rounded-lg border-[1px] border-slate-500 bg-black">
+          <BiLogoCss3 size={100} color={"blue"} />
         </div>
-        <div className="rounded-lg border-1 border-slate-500">
-          <BiLogoJavascript size={100} />
+        <div className="rounded-lg border-[1px] border-slate-500 bg-black text-blue-500">
+          <BiLogoReact size={100} />
         </div>
-        <div className="rounded-lg border-1 border-slate-500">
-          <BiLogoJavascript size={100} />
+        <div className="rounded-lg border-[1px] border-slate-500 bg-black text-slate-900">
+          <SiNextdotjs size={100} />
         </div>
-        <div className="rounded-lg border-1 border-slate-500">
-          <BiLogoJavascript size={100} />
+        <div className="rounded-lg border-[1px] border-slate-500 bg-black text-red-600">
+          <SiSvelte size={100} />
         </div>
       </div>
     </div>
