@@ -43,7 +43,7 @@ const page = () => {
         <div className="bg-slate-900 p-6 rounded-md text-blue-500 cursor-pointer">
           <BiLogoReact size={100} />
         </div>
-        <div className="bg-slate-900 p-6 rounded-md text-slate-900 cursor-pointer">
+        <div className="bg-slate-900 p-6 rounded-md text-white cursor-pointer">
           <SiNextdotjs size={100} />
         </div>
         <div className="bg-slate-900 p-6 rounded-md text-red-600 cursor-pointer">
@@ -55,10 +55,10 @@ const page = () => {
         <div className="bg-slate-900 p-6 rounded-md text-purple-500 cursor-pointer">
           <BiLogoRedux size={100} />
         </div>
-        <div className="bg-slate-900 p-6 rounded-md text-gray-800 cursor-pointer">
+        <div className="bg-slate-900 p-6 rounded-md text-blue-300 cursor-pointer">
           <SiExpo size={100} />
         </div>
-        <div className="bg-slate-900 p-6 rounded-md text-slate-800 cursor-pointer">
+        <div className="bg-slate-900 p-6 rounded-md text-red-400 cursor-pointer">
           <SiReactrouter size={100} />
         </div>
         <div className="bg-slate-900 p-6 rounded-md text-purple-800 cursor-pointer">
@@ -70,7 +70,7 @@ const page = () => {
         <div className="bg-slate-900 p-6 rounded-md text-blue-400 cursor-pointer">
           <BiLogoTailwindCss size={100} />
         </div>
-        <div className="bg-slate-900 p-6 rounded-md  text-gray-500 cursor-pointer">
+        <div className="bg-slate-900 p-6 rounded-md  text-pink-600 cursor-pointer">
           <SiStyledcomponents size={100} />
         </div>
         <div className="bg-slate-900 p-6 rounded-md text-purple-600 cursor-pointer">
@@ -82,13 +82,13 @@ const page = () => {
         <div className="bg-slate-900 p-6 rounded-md text-blue-600 cursor-pointer">
           <FiFramer size={100} />
         </div>
-        <div className="bg-slate-900 p-6 rounded-md  cursor-pointer">
+        <div className="bg-slate-900 p-6 rounded-md text-pink-400  cursor-pointer">
           <BiLogoFigma size={100} />
         </div>
         <div className="bg-slate-900 p-6 rounded-md text-orange-700 cursor-pointer">
           <BsGit size={100} />
         </div>
-        <div className="bg-slate-900 p-6 rounded-md text-gray-900 cursor-pointer">
+        <div className="bg-slate-900 p-6 rounded-md text-blue-800 cursor-pointer">
           <AiFillGithub size={100} />
         </div>
       </div>
