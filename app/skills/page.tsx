@@ -32,64 +32,64 @@ const page = () => {
       {/* Skill Icons */}
       <div className="flex flex-row flex-wrap w-full mt-8 gap-10">
         <div className="  cursor-pointer">
-          <AiFillHtml5 size={150} color={"yellow"} />
+          <AiFillHtml5 size={100} color={"yellow"} />
         </div>
         <div className="   cursor-pointer">
-          <BiLogoCss3 size={150} color={"orange"} />
+          <BiLogoCss3 size={100} color={"orange"} />
         </div>
         <div className="   cursor-pointer">
-          <BiLogoJavascript size={150} color={"blue"} />
+          <BiLogoJavascript size={100} color={"blue"} />
         </div>
         <div className="   text-blue-500 cursor-pointer">
-          <BiLogoReact size={150} />
+          <BiLogoReact size={100} />
         </div>
         <div className=" text-slate-900 cursor-pointer">
-          <SiNextdotjs size={150} />
+          <SiNextdotjs size={100} />
         </div>
         <div className="   text-red-600 cursor-pointer">
-          <SiSvelte size={150} />
+          <SiSvelte size={100} />
         </div>
         <div className="   text-blue-600 cursor-pointer">
-          <BiLogoTypescript size={150} />
+          <BiLogoTypescript size={100} />
         </div>
         <div className="   text-purple-500 cursor-pointer">
-          <BiLogoRedux size={150} />
+          <BiLogoRedux size={100} />
         </div>
         <div className="   text-gray-800 cursor-pointer">
-          <SiExpo size={150} />
+          <SiExpo size={100} />
         </div>
         <div className="   text-slate-800 cursor-pointer">
-          <SiReactrouter size={150} />
+          <SiReactrouter size={100} />
         </div>
         <div className="  text-purple-800 cursor-pointer">
-          <SiAxios size={150} />
+          <SiAxios size={100} />
         </div>
         <div className="   text-orange-600 cursor-pointer">
-          <SiPostman size={150} />
+          <SiPostman size={100} />
         </div>
         <div className="   text-blue-400 cursor-pointer">
-          <BiLogoTailwindCss size={150} />
+          <BiLogoTailwindCss size={100} />
         </div>
         <div className="   text-gray-500 cursor-pointer">
-          <SiStyledcomponents size={150} />
+          <SiStyledcomponents size={100} />
         </div>
         <div className="  text-purple-600 cursor-pointer">
-          <BsFillBootstrapFill size={150} />
+          <BsFillBootstrapFill size={100} />
         </div>
         <div className="   text-blue-500 cursor-pointer">
-          <DiMaterializecss size={150} />
+          <DiMaterializecss size={100} />
         </div>
         <div className="   text-blue-600 cursor-pointer">
-          <FiFramer size={150} />
+          <FiFramer size={100} />
         </div>
         <div className="    cursor-pointer">
-          <BiLogoFigma size={150} />
+          <BiLogoFigma size={100} />
         </div>
         <div className="   text-orange-700 cursor-pointer">
-          <BsGit size={150} />
+          <BsGit size={100} />
         </div>
         <div className="   text-gray-900 cursor-pointer">
-          <AiFillGithub size={150} />
+          <AiFillGithub size={100} />
         </div>
       </div>
     </div>
