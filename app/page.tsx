@@ -4,12 +4,10 @@ import { motion } from "framer-motion";
 import LatestProjects from "../app/components/LatestProjects";
 import { useEffect, useState } from "react";
 import FacebookMessage from "../app/components/FacebookMessage";
-import Navbar from "../app/components/Navbar";
 
 const Home = () => {
   return (
     <>
-      <Navbar />
       <div>
         <div className="flex flex-col pt-20 md:pt-40 gap-y-4">
           <motion.div
