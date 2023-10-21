@@ -19,7 +19,7 @@ import {
   SiPostman,
 } from "react-icons/si";
 import { BsFillBootstrapFill } from "react-icons/bs";
-import { DiMaterializecss } from "react-icons/di";
+import { DiMaterializecss, DiSass } from "react-icons/di";
 import { FiFramer } from "react-icons/fi";
 import { BsGit } from "react-icons/bs";
 
@@ -78,6 +78,10 @@ const page = () => {
         <div className="bg-slate-900 p-6 rounded-md text-orange-600 cursor-pointer flex flex-col gap-2 items-center text-center">
           <SiPostman size={100} />
           <h1>Postman</h1>
+        </div>
+        <div className="bg-slate-900 p-6 rounded-md text-pink-500 cursor-pointer flex flex-col gap-2 items-center text-center">
+          <DiSass size={100} />
+          <h1>Sass</h1>
         </div>
         <div className="bg-slate-900 p-6 rounded-md text-blue-400 cursor-pointer flex flex-col gap-2 items-center text-center">
           <BiLogoTailwindCss size={100} />
