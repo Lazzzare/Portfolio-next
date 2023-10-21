@@ -91,7 +91,7 @@ const page = () => {
             </div>
             <div className="bg-slate-900 p-6 rounded-md text-red-400 cursor-pointer flex flex-col gap-2 items-center text-center hover:scale-125 duration-500">
               <SiReactrouter size={100} />
-              <h1>React-Router</h1>
+              <h1>Router</h1>
             </div>
             <div className="bg-slate-900 p-6 rounded-md text-purple-800 cursor-pointer flex flex-col gap-2 items-center text-center hover:scale-125 duration-500">
               <SiAxios size={100} />
