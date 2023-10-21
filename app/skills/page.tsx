@@ -83,7 +83,7 @@ const page = () => {
           <BiLogoTailwindCss size={100} />
           <h1>Tailwind</h1>
         </div>
-        <div className="bg-slate-900 p-6 rounded-md  text-purple-400cursor-pointer flex flex-col gap-2 items-center text-center">
+        <div className="bg-slate-900 p-6 rounded-md text-purple-400  cursor-pointer flex flex-col gap-2 items-center text-center">
           <SiStyledcomponents size={100} />
           <h1>Styled</h1>
         </div>
