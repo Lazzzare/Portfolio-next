@@ -45,31 +45,31 @@ const page = () => {
           transition={{ duration: 1 }}
         >
           <div className="flex flex-row justify-between items-center w-full gap-[50px]">
-            <div className="bg-slate-900 p-6 rounded-md cursor-pointer text-orange-600 flex flex-col gap-2 items-center text-center">
+            <div className="bg-slate-900 p-6 rounded-md cursor-pointer text-orange-600 flex flex-col gap-2 items-center text-center hover:scale-125 duration-500">
               <AiFillHtml5 size={100} />
               <h1>HTML</h1>
             </div>
-            <div className="bg-slate-900 p-6 rounded-md cursor-pointer text-blue-400 flex flex-col gap-2 items-center text-center">
+            <div className="bg-slate-900 p-6 rounded-md cursor-pointer text-blue-400 flex flex-col gap-2 items-center text-center hover:scale-125 duration-500">
               <BiLogoCss3 size={100} />
               <h1>CSS</h1>
             </div>
-            <div className="bg-slate-900 p-6 rounded-md cursor-pointer text-yellow-400 flex flex-col gap-2 items-center text-center">
+            <div className="bg-slate-900 p-6 rounded-md cursor-pointer text-yellow-400 flex flex-col gap-2 items-center text-center hover:scale-125 duration-500">
               <BiLogoJavascript size={100} />
               <h1>Javascript</h1>
             </div>
-            <div className="bg-slate-900 p-6 rounded-md text-blue-500 cursor-pointer flex flex-col gap-2 items-center text-center">
+            <div className="bg-slate-900 p-6 rounded-md text-blue-500 cursor-pointer flex flex-col gap-2 items-center text-center hover:scale-125 duration-500">
               <BiLogoReact size={100} />
               <h1>React</h1>
             </div>
-            <div className="bg-slate-900 p-6 rounded-md text-white cursor-pointer flex flex-col gap-2 items-center text-center">
+            <div className="bg-slate-900 p-6 rounded-md text-white cursor-pointer flex flex-col gap-2 items-center text-center hover:scale-125 duration-500">
               <SiNextdotjs size={100} />
               <h1>Next</h1>
             </div>
-            <div className="bg-slate-900 p-6 rounded-md text-red-600 cursor-pointer flex flex-col gap-2 items-center text-center">
+            <div className="bg-slate-900 p-6 rounded-md text-red-600 cursor-pointer flex flex-col gap-2 items-center text-center hover:scale-125 duration-500">
               <SiSvelte size={100} />
               <h1>Svelte</h1>
             </div>
-            <div className="bg-slate-900 p-6 rounded-md text-blue-600 cursor-pointer flex flex-col gap-2 items-center text-center">
+            <div className="bg-slate-900 p-6 rounded-md text-blue-600 cursor-pointer flex flex-col gap-2 items-center text-center hover:scale-125 duration-500">
               <BiLogoTypescript size={100} />
               <h1>Typescript</h1>
             </div>
@@ -81,31 +81,31 @@ const page = () => {
           transition={{ duration: 2 }}
         >
           <div className="flex flex-row justify-between items-center w-full gap-[50px]">
-            <div className="bg-slate-900 p-6 rounded-md text-purple-500 cursor-pointer flex flex-col gap-2 items-center text-center">
+            <div className="bg-slate-900 p-6 rounded-md text-purple-500 cursor-pointer flex flex-col gap-2 items-center text-center hover:scale-125 duration-500">
               <BiLogoRedux size={100} />
               <h1>Redux</h1>
             </div>
-            <div className="bg-slate-900 p-6 rounded-md text-blue-300 cursor-pointer flex flex-col gap-2 items-center text-center">
+            <div className="bg-slate-900 p-6 rounded-md text-blue-300 cursor-pointer flex flex-col gap-2 items-center text-center hover:scale-125 duration-500">
               <SiExpo size={100} />
               <h1>Expo</h1>
             </div>
-            <div className="bg-slate-900 p-6 rounded-md text-red-400 cursor-pointer flex flex-col gap-2 items-center text-center">
+            <div className="bg-slate-900 p-6 rounded-md text-red-400 cursor-pointer flex flex-col gap-2 items-center text-center hover:scale-125 duration-500">
               <SiReactrouter size={100} />
               <h1>React-Router</h1>
             </div>
-            <div className="bg-slate-900 p-6 rounded-md text-purple-800 cursor-pointer flex flex-col gap-2 items-center text-center">
+            <div className="bg-slate-900 p-6 rounded-md text-purple-800 cursor-pointer flex flex-col gap-2 items-center text-center hover:scale-125 duration-500">
               <SiAxios size={100} />
               <h1>Axios</h1>
             </div>
-            <div className="bg-slate-900 p-6 rounded-md text-orange-600 cursor-pointer flex flex-col gap-2 items-center text-center">
+            <div className="bg-slate-900 p-6 rounded-md text-orange-600 cursor-pointer flex flex-col gap-2 items-center text-center hover:scale-125 duration-500">
               <SiPostman size={100} />
               <h1>Postman</h1>
             </div>
-            <div className="bg-slate-900 p-6 rounded-md text-pink-500 cursor-pointer flex flex-col gap-2 items-center text-center">
+            <div className="bg-slate-900 p-6 rounded-md text-pink-500 cursor-pointer flex flex-col gap-2 items-center text-center hover:scale-125 duration-500">
               <DiSass size={100} />
               <h1>Sass</h1>
             </div>
-            <div className="bg-slate-900 p-6 rounded-md text-blue-400 cursor-pointer flex flex-col gap-2 items-center text-center">
+            <div className="bg-slate-900 p-6 rounded-md text-blue-400 cursor-pointer flex flex-col gap-2 items-center text-center hover:scale-125 duration-500">
               <BiLogoTailwindCss size={100} />
               <h1>Tailwind</h1>
             </div>
@@ -117,31 +117,31 @@ const page = () => {
           transition={{ duration: 1 }}
         >
           <div className="flex flex-row justify-between items-center w-full gap-[50px]">
-            <div className="bg-slate-900 p-6 rounded-md text-purple-400  cursor-pointer flex flex-col gap-2 items-center text-center hover:scale-110">
+            <div className="bg-slate-900 p-6 rounded-md text-purple-400  cursor-pointer flex flex-col gap-2 items-center text-center hover:scale-125 duration-500">
               <SiStyledcomponents size={100} />
               <h1>Styled</h1>
             </div>
-            <div className="bg-slate-900 p-6 rounded-md text-purple-600 cursor-pointer flex flex-col gap-2 items-center text-center hover:scale-105">
+            <div className="bg-slate-900 p-6 rounded-md text-purple-600 cursor-pointer flex flex-col gap-2 items-center text-center hover:scale-125 duration-500">
               <BsFillBootstrapFill size={100} />
               <h1>Bootstrap</h1>
             </div>
-            <div className="bg-slate-900 p-6 rounded-md text-blue-500 cursor-pointer flex flex-col gap-2 items-center text-center hover:scale-125">
+            <div className="bg-slate-900 p-6 rounded-md text-blue-500 cursor-pointer flex flex-col gap-2 items-center text-center hover:scale-125 duration-500">
               <DiMaterializecss size={100} />
               <h1>MaterialUI</h1>
             </div>
-            <div className="bg-slate-900 p-6 rounded-md text-blue-600  cursor-pointer flex flex-col gap-2 items-center text-center">
+            <div className="bg-slate-900 p-6 rounded-md text-blue-600  cursor-pointer flex flex-col gap-2 items-center text-center hover:scale-125 duration-500">
               <FiFramer size={100} />
               <h1>Framer</h1>
             </div>
-            <div className="bg-slate-900 p-6 rounded-md text-pink-400  cursor-pointer flex flex-col gap-2 items-center text-center">
+            <div className="bg-slate-900 p-6 rounded-md text-pink-400  cursor-pointer flex flex-col gap-2 items-center text-center hover:scale-125 duration-500">
               <BiLogoFigma size={100} />
               <h1>Figma</h1>
             </div>
-            <div className="bg-slate-900 p-6 rounded-md text-orange-700 cursor-pointer flex flex-col gap-2 items-center text-center">
+            <div className="bg-slate-900 p-6 rounded-md text-orange-700 cursor-pointer flex flex-col gap-2 items-center text-center hover:scale-125 duration-500">
               <BsGit size={100} />
               <h1>Git</h1>
             </div>
-            <div className="bg-slate-900 p-6 rounded-md text-blue-800 cursor-pointer flex flex-col gap-2 items-center text-center">
+            <div className="bg-slate-900 p-6 rounded-md text-blue-800 cursor-pointer flex flex-col gap-2 items-center text-center hover:scale-125 duration-500">
               <AiFillGithub size={100} />
               <h1>Github</h1>
             </div>
