@@ -42,7 +42,7 @@ const page = () => {
         <motion.div
           initial={{ opacity: 0, x: -500 }}
           animate={{ opacity: 3, x: 0 }}
-          transition={{ duration: 2 }}
+          transition={{ duration: 1 }}
         >
           <div className="flex flex-row justify-between items-center w-full gap-[50px]">
             <div className="bg-slate-900 p-6 rounded-md cursor-pointer text-orange-600 flex flex-col gap-2 items-center text-center">
@@ -114,7 +114,7 @@ const page = () => {
         <motion.div
           initial={{ opacity: 0, x: -500 }}
           animate={{ opacity: 3, x: 0 }}
-          transition={{ duration: 2 }}
+          transition={{ duration: 1 }}
         >
           <div className="flex flex-row justify-between items-center w-full gap-[50px]">
             <div className="bg-slate-900 p-6 rounded-md text-purple-400  cursor-pointer flex flex-col gap-2 items-center text-center">
