@@ -39,43 +39,42 @@ const page = () => {
       </motion.div>
       {/* Skill Icons */}
       <div className="flex flex-row flex-wrap w-full mt-8 gap-10">
-      <motion.div
-        initial={{ opacity: 0, x: -500 }}
-        animate={{ opacity: 3, x: 0 }}
-        transition={{ duration: 1 }}
-      >
-        <div className="flex flex-row justify-between">
-          <div className="bg-slate-900 p-6 rounded-md cursor-pointer text-orange-600 flex flex-col gap-2 items-center text-center">
-            <AiFillHtml5 size={100} />
-            <h1>HTML</h1>
+        <motion.div
+          initial={{ opacity: 0, x: -500 }}
+          animate={{ opacity: 3, x: 0 }}
+          transition={{ duration: 1 }}
+        >
+          <div className="flex flex-row justify-between">
+            <div className="bg-slate-900 p-6 rounded-md cursor-pointer text-orange-600 flex flex-col gap-2 items-center text-center">
+              <AiFillHtml5 size={100} />
+              <h1>HTML</h1>
+            </div>
+            <div className="bg-slate-900 p-6 rounded-md cursor-pointer text-blue-400 flex flex-col gap-2 items-center text-center">
+              <BiLogoCss3 size={100} />
+              <h1>CSS</h1>
+            </div>
+            <div className="bg-slate-900 p-6 rounded-md cursor-pointer text-yellow-400 flex flex-col gap-2 items-center text-center">
+              <BiLogoJavascript size={100} />
+              <h1>Javascript</h1>
+            </div>
+            <div className="bg-slate-900 p-6 rounded-md text-blue-500 cursor-pointer flex flex-col gap-2 items-center text-center">
+              <BiLogoReact size={100} />
+              <h1>React</h1>
+            </div>
+            <div className="bg-slate-900 p-6 rounded-md text-white cursor-pointer flex flex-col gap-2 items-center text-center">
+              <SiNextdotjs size={100} />
+              <h1>Next</h1>
+            </div>
+            <div className="bg-slate-900 p-6 rounded-md text-red-600 cursor-pointer flex flex-col gap-2 items-center text-center">
+              <SiSvelte size={100} />
+              <h1>Svelte</h1>
+            </div>
+            <div className="bg-slate-900 p-6 rounded-md text-blue-600 cursor-pointer flex flex-col gap-2 items-center text-center">
+              <BiLogoTypescript size={100} />
+              <h1>Typescript</h1>
+            </div>
           </div>
-          <div className="bg-slate-900 p-6 rounded-md cursor-pointer text-blue-400 flex flex-col gap-2 items-center text-center">
-            <BiLogoCss3 size={100} />
-            <h1>CSS</h1>
-          </div>
-          <div className="bg-slate-900 p-6 rounded-md cursor-pointer text-yellow-400 flex flex-col gap-2 items-center text-center">
-            <BiLogoJavascript size={100} />
-            <h1>Javascript</h1>
-          </div>
-          <div className="bg-slate-900 p-6 rounded-md text-blue-500 cursor-pointer flex flex-col gap-2 items-center text-center">
-            <BiLogoReact size={100} />
-            <h1>React</h1>
-          </div>
-          <div className="bg-slate-900 p-6 rounded-md text-white cursor-pointer flex flex-col gap-2 items-center text-center">
-            <SiNextdotjs size={100} />
-            <h1>Next</h1>
-          </div>
-          <div className="bg-slate-900 p-6 rounded-md text-red-600 cursor-pointer flex flex-col gap-2 items-center text-center">
-            <SiSvelte size={100} />
-            <h1>Svelte</h1>
-          </div>
-          <div className="bg-slate-900 p-6 rounded-md text-blue-600 cursor-pointer flex flex-col gap-2 items-center text-center">
-            <BiLogoTypescript size={100} />
-            <h1>Typescript</h1>
-          </div>
-        </div>
-      </motion.div>
-        </div>
+        </motion.div>
         <div className="bg-slate-900 p-6 rounded-md text-purple-500 cursor-pointer flex flex-col gap-2 items-center text-center">
           <BiLogoRedux size={100} />
           <h1>Redux</h1>
