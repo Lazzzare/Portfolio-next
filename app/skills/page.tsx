@@ -117,15 +117,15 @@ const page = () => {
           transition={{ duration: 1 }}
         >
           <div className="flex flex-row justify-between items-center w-full gap-[50px]">
-            <div className="bg-slate-900 p-6 rounded-md text-purple-400  cursor-pointer flex flex-col gap-2 items-center text-center">
+            <div className="bg-slate-900 p-6 rounded-md text-purple-400  cursor-pointer flex flex-col gap-2 items-center text-center hover:scale-110">
               <SiStyledcomponents size={100} />
               <h1>Styled</h1>
             </div>
-            <div className="bg-slate-900 p-6 rounded-md text-purple-600 cursor-pointer flex flex-col gap-2 items-center text-center">
+            <div className="bg-slate-900 p-6 rounded-md text-purple-600 cursor-pointer flex flex-col gap-2 items-center text-center hover:scale-105">
               <BsFillBootstrapFill size={100} />
               <h1>Bootstrap</h1>
             </div>
-            <div className="bg-slate-900 p-6 rounded-md text-blue-500 cursor-pointer flex flex-col gap-2 items-center text-center">
+            <div className="bg-slate-900 p-6 rounded-md text-blue-500 cursor-pointer flex flex-col gap-2 items-center text-center hover:scale-125">
               <DiMaterializecss size={100} />
               <h1>MaterialUI</h1>
             </div>
